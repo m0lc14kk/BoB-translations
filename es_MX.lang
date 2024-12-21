@@ -1,103 +1,103 @@
-tips.game.1=¿Necesita una buena fuente de alimento temprano? Pruebe una §gzanahoria salvaje§r.
+tips.game.1=¿Necesitas una buena fuente de alimento al iniciar el juego? Prueba una §gzanahoria salvaje§r.
 tips.game.2=¡Ten cuidado con los jefes!
-tips.game.3=Pregúntale al §gGoblin Trader§r, el pequeño te tiene cubierto.
-tips.game.4=¿Necesitas una base rápida? ¡Busca alrededor!.
-tips.game.5=Él siempre está mirando...
-tips.game.6=Mira los increíbles nuevos biomas.
-tips.game.7=¿Sabías que Better on Bedrock tenía los nombres §g'Better Vanilla'§r y §g'Vanilla Enhanced'§r antes de la versión beta?
-tips.game.8=Utilice un §eBounty Board§r para cazar a su presa.
-tips.game.9=¡Crea una §gMochila§r para guardar tus cosas!
-tips.game.10=Utilice §gWaystones§r para guardar su lugar.
-tips.game.11=§5¡No hagas zanahorias silvestres!§r
-tips.game.12=¿Por qué están aquí?
-tips.game.13=Stitch: "¡Ahora los pings pueden terminar!"
+tips.game.3=Pregúntale al §gduende comerciante§r, el muchacho te tiene cubierto.
+tips.game.4=¿Necesitas una base pronto? ¡Busca alrededor!
+tips.game.5=Él siempre está observando...
+tips.game.6=Checa los asombrosos biomas nuevos.
+tips.game.7=¿Sabías que Better on Bedrock originalmente se llamaba §g'Better Vanilla'§r y §g'Vanilla Enhanced'§r antes de la versión beta?
+tips.game.8=Guíate del §etablero de recompensas§r para cazar presas.
+tips.game.9=¡Fabrica una §gmochila§r para almacenar tus objetos!
+tips.game.10=Utiliza §gpiedras de guía§r para guardar tu posición.
+tips.game.11=§5¡No las zanahorias silvestres!§r
+tips.game.12=¿¿Por qué están aquí??
+tips.game.13=Stitch: "¡Ya no más menciones!"
 
 
-bob.message.welcome=¡Gracias por jugar §7Better en Bedrock§r! ¡Asegúrese de leer el libro de información para comenzar a saber qué esperar y cómo funcionan algunas cosas!
+bob.message.welcome=¡Gracias por jugar §7Better en Bedrock§r! ¡Asegúrate de leer el libro de información para empezar con qué puedes esperar y cómo funcionan algunas cosas!
 
-bob.message.dimensionLocation=§6%1§7, §6%2§7, §6%3§7, §rin %4§r
+bob.message.dimensionLocation=§6%1§7, §6%2§7, §6%3§7, §ren %4§r
 bob.message.youDiedAt=Moriste en: 
-bob.message.achievementMade=%1 §rha hecho el avance: %2§r
-bob.message.ghostnecklace.fail=Lo sentimos, ¡no puedes usar el collar fantasma en el modo Extremo!
+bob.message.achievementMade=%1 §rha hecho el logro: %2§r
+bob.message.ghostnecklace.fail=Lo sentimos, ¡no puedes usar el collar fantasmal en el modo Extremo!
 
-bob.message.ironWithCopperPick=¡Solo puedes extraer este mineral con un pico de cobre o mejor!
+bob.message.ironWithCopperPick=¡Solo puedes minar este mineral con un pico de cobre o mejor!
 bob.message.notEnoughLevels=¡No tienes suficientes niveles!
 bob.message.configUpdated=¡Configuración del complemento actualizada!
 bob.message.cannotEnchant=Esta herramienta no se puede encantar. Las herramientas encantables son:
 
-bob.message.minerBench.noEnchants=No hay más encantamientos disponibles para este artículo.
-bob.message.minerBench.noItems=¡No tienes los artículos necesarios!
+bob.message.minerBench.noEnchants=No hay más encantamientos disponibles para este objeto.
+bob.message.minerBench.noItems=¡No tienes los objetos necesarios!
 
-bob.message.staffs.outOfMana=Este bastón se quedó sin maná.
+bob.message.staffs.outOfMana=Este bastón se agotó de maná.
 bob.message.staffs.notEnoughMana=No hay suficiente maná para usar este ataque.
 
 
 bob.toast.questComplete=¡Misión completada!
 bob.toast.achievementMade=¡Avance hecho!
-bob.toast.bounty.bountyComplete=¡Recompensa completa!
-bob.toast.bounty.claimYourRewards=¡Reclame sus recompensas!
+bob.toast.bounty.bountyComplete=¡Recompensa completda!
+bob.toast.bounty.claimYourRewards=¡Reclama tus recompensas!
 bob.toast.advancement.firstDay.name=¿Primer día?
-bob.toast.advancement.firstDay.desc=¡Juega mejor en Bedrock!
+bob.toast.advancement.firstDay.desc=¡Juega Better on Bedrock!
 
 
-gui.goBack=Volver
+gui.goBack=Regresar
 bob.gui.nothing=Nada que ver aquí.
 bob.gui.rewards=Recompensas
-bob.gui.claim=Afirmar
+bob.gui.claim=Reclamar
 bob.gui.claimAll=Reclamar todo
-bob.gui.startHunt=Iniciar caza
-bob.gui.startQuest=Iniciar misión
+bob.gui.startHunt=Empezar caza
+bob.gui.startQuest=Empezar misión
 
-bob.gui.unlocked=desbloqueado
+bob.gui.unlocked=Desbloqueado
 bob.gui.available=Disponible
-bob.gui.completed=Terminado
+bob.gui.completed=Completado
 
 
 bob.gui.wawla.displayName=Nombre para mostrar
-bob.gui.wawla.nameTag=Etiqueta de nombre
+bob.gui.wawla.nameTag=Etiqueta
 bob.gui.wawla.health=Salud
 bob.gui.wawla.isBaby=Bebé
-bob.gui.wawla.tameChance=Oportunidad domesticada
+bob.gui.wawla.tameChance=Probabilidad de domesticación
 bob.gui.wawla.growth=Crecimiento
 bob.gui.wawla.isGrown=Crecido
 bob.gui.wawla.honey=Miel
 bob.gui.wawla.compostLevel=Nivel de abono
 bob.gui.wawla.correctTool=Herramienta correcta
-bob.gui.wawla.canHarvest=Puede cosechar
+bob.gui.wawla.canHarvest=Se puede cosechar
 
 bob.gui.wawla.tool.hand=Mano
 bob.gui.wawla.tool.axe=Hacha
-bob.gui.wawla.tool.pickaxe=Piqueta
+bob.gui.wawla.tool.pickaxe=Pico
 bob.gui.wawla.tool.shovel=Pala
 
 
-bob.achievement.1=Evaluación comparativa
-bob.achievement.2=Edad de Piedra
-bob.achievement.3=Obtener una actualización
-bob.achievement.4=Un lugar sórdido
-bob.achievement.5=Adquirir hardware
-bob.achievement.6=cosas calientes
+bob.achievement.1=Creación en la mesa
+bob.achievement.2=La Edad de Piedra
+bob.achievement.3=Mejorando herramientas
+bob.achievement.4=Crecen tan rápido...
+bob.achievement.5=La Edad de Hierro
+bob.achievement.6=¡La cosa está que arde!
 bob.achievement.7=Vístete
-bob.achievement.8=¿No es un pico de hierro?
-bob.achievement.9=Desafío del cubo de hielo
-bob.achievement.10=diamantes
-bob.achievement.11=Cúbreme con diamantes
-bob.achievement.12=Encantador
-bob.achievement.13=Médico zombi
+bob.achievement.8=¿No es hierrónico?
+bob.achievement.9=Mente fría
+bob.achievement.10=¡DIAMANTES!
+bob.achievement.11=Cúbreme de diamantes
+bob.achievement.12=Aprendiz de mago
+bob.achievement.13=Zombiólogo
 bob.achievement.14=Ojo espía
-bob.achievement.15=abeja nuestro invitado
-bob.achievement.16=mejor amiga
+bob.achievement.15=Abelante, esta es tu casa
+bob.achievement.16=Mejores amigos para siempre
 
-bob.achievement.17=No hagas zanahorias silvestres
-bob.achievement.18=¿La nuez de coco es una nuez gigante?
-bob.achievement.19=Días Tristes.
-bob.achievement.20=Más viajes
-bob.achievement.21=El sueño del minero
-bob.achievement.22=Piedras magicas
+bob.achievement.17=No las zanahorias silvestres...
+bob.achievement.18=¿El Coco No es un no?
+bob.achievement.19=Días tristes.
+bob.achievement.20=Viajando más
+bob.achievement.21=El sueño de un minero
+bob.achievement.22=Las piedras magicas
 
 
-bob.gui.waystone.main.title=Menú de Piedra de Camino
-bob.gui.waystone.main.desc=Para agregar otra piedra de paso, agáchate e interactúa sobre la piedra de paso.
+bob.gui.waystone.main.title=Menú de piedra de guía
+bob.gui.waystone.main.desc=Para agregar otra piedra de guía al menú, agáchate e interactúa con la piedra de guía existente.
 
 bob.gui.waystone.add.title=Agregar una piedra de paso
 bob.gui.waystone.add.desc.1=Ingresa el nombre de tu Waystone.
