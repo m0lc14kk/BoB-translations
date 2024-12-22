@@ -108,7 +108,7 @@ bob.gui.waystone.add.desc.5=§7 Piedras de guía globales: §a%1/%2§7.
 bob.gui.waystone.add.placeholder=Nombre de la piedra de guía
 bob.gui.waystone.add.globalToggle=Piedra de guía global
 
-bob.gui.waystone.info.title=Piedra de camino: §6%1
+bob.gui.waystone.info.title=Piedra de guía: §6%1
 bob.gui.waystone.info.desc.1=Estás a punto de teletransportarte a esta piedra de guía.
 bob.gui.waystone.info.desc.2=Teletransportarse a esta piedra de guía requiere §e%1 niveles de experiencia§r.
 bob.gui.waystone.info.desc.3=Si te teletransportas entre dimensiones, te costará §e%1 niveles de experiencia§r.
