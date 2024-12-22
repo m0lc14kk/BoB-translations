@@ -34,7 +34,7 @@ bob.message.staffs.notEnoughMana=No hay suficiente maná para usar este ataque.
 
 bob.toast.questComplete=¡Misión completada!
 bob.toast.achievementMade=¡Avance hecho!
-bob.toast.bounty.bountyComplete=¡Recompensa completda!
+bob.toast.bounty.bountyComplete=¡Recompensa completada!
 bob.toast.bounty.claimYourRewards=¡Reclama tus recompensas!
 bob.toast.advancement.firstDay.name=¿Primer día?
 bob.toast.advancement.firstDay.desc=¡Juega Better on Bedrock!
@@ -99,36 +99,36 @@ bob.achievement.22=Las piedras magicas
 bob.gui.waystone.main.title=Menú de piedra de guía
 bob.gui.waystone.main.desc=Para agregar otra piedra de guía al menú, agáchate e interactúa con la piedra de guía existente.
 
-bob.gui.waystone.add.title=Agregar una piedra de paso
-bob.gui.waystone.add.desc.1=Ingresa el nombre de tu Waystone.
-bob.gui.waystone.add.desc.2=§7Si este campo no se completa, el nombre de la Waystone será §8"Predeterminado"§r.
-bob.gui.waystone.add.desc.3=§7Si un nombre es el mismo que el de una Waystone actual, se sobrescribirá la antigua Waystone.
-bob.gui.waystone.add.desc.4=§7Tienes: §c%1/%2 piedras de referencia establecidas§7.
-bob.gui.waystone.add.desc.5=§7 Piedras de referencia globales: §a%1/%2§7.
-bob.gui.waystone.add.placeholder=Nombre de la piedra de paso
-bob.gui.waystone.add.globalToggle=Piedra de camino global
+bob.gui.waystone.add.title=Agregar una piedra de guía
+bob.gui.waystone.add.desc.1=Ingresa el nombre de tu piedra de guía.
+bob.gui.waystone.add.desc.2=§7Si este campo no está completo, el nombre de la piedra de guía será §8"Predeterminado"§r.
+bob.gui.waystone.add.desc.3=§7Si un nombre es el mismo que el de una piedra de guía preexistente, se modificará la piedra de guía original.
+bob.gui.waystone.add.desc.4=§7Tienes: §c%1/%2 piedras de de guía establecidas§7.
+bob.gui.waystone.add.desc.5=§7 Piedras de guía globales: §a%1/%2§7.
+bob.gui.waystone.add.placeholder=Nombre de la piedra de guía
+bob.gui.waystone.add.globalToggle=Piedra de guía global
 
 bob.gui.waystone.info.title=Piedra de camino: §6%1
-bob.gui.waystone.info.desc.1=Estás a punto de teletransportarte a esta Waystone.
-bob.gui.waystone.info.desc.2=Teletransportarse a esta piedra de paso requiere §e%1 niveles de XP§r.
-bob.gui.waystone.info.desc.3=Si te teletransportas a través de dimensiones, te costará §e%1 niveles de XP§r.
-bob.gui.waystone.info.teleport=Teletransportarse a esta Piedra de Camino
-bob.gui.waystone.info.remove=Quitar esta Piedra de Camino
-bob.message.waystone.added=¡Se agregó Waystone!
-bob.message.waystone.removed=Se eliminó la piedra de paso.
+bob.gui.waystone.info.desc.1=Estás a punto de teletransportarte a esta piedra de guía.
+bob.gui.waystone.info.desc.2=Teletransportarse a esta piedra de guía requiere §e%1 niveles de experiencia§r.
+bob.gui.waystone.info.desc.3=Si te teletransportas entre dimensiones, te costará §e%1 niveles de experiencia§r.
+bob.gui.waystone.info.teleport=Teletransportarse a esta piedra de guía
+bob.gui.waystone.info.remove=Eliminar esta piedra de guía
+bob.message.waystone.added=¡Se agregó la piedra de guía!
+bob.message.waystone.removed=Se eliminó la piedra de guía.
 bob.message.waystone.name=Nombre: §7%1
 bob.message.waystone.nameGlobal=Nombre: §p%1
 bob.message.waystone.location=Ubicación: 
 bob.message.waystone.teleporting=Teletransportándose a §7%1§r...
-bob.message.waystone.zeroWaystones=No hay piedras de paso disponibles.
-bob.message.waystone.maxWarps=¡Ya tienes la cantidad máxima de piedras de ruta establecidas!
-bob.message.waystone.maxGlobalWarps=¡Se ha alcanzado la cantidad máxima de piedras de ruta globales!
+bob.message.waystone.zeroWaystones=No hay piedras de guía disponibles.
+bob.message.waystone.maxWarps=¡Ya alcanzaste la cantidad máxima de piedras de guía establecidas!
+bob.message.waystone.maxGlobalWarps=¡Se ha alcanzado la cantidad máxima de piedras de guía globales!
 
 
 bob.gui.playercorpse.title=¿Desempolvar el cadáver?
-bob.gui.playercorpse.body=Quitar el polvo del cadáver eliminará todos los elementos que contiene. Para recuperar tus artículos, abre el inventario del cadáver.
-bob.gui.playercorpse.dust=desempolvar el cadáver
-bob.gui.playercorpse.keep=Guárdalo
+bob.gui.playercorpse.body=Desempolvar el cadáver eliminará todos los objetos almacenados en él. Para antes recuperar tus objetos, abre el inventario del cadáver.
+bob.gui.playercorpse.dust=Desempolvar el cadáver
+bob.gui.playercorpse.keep=Conservarlo
 
 
 bob.message.questUnlocked=MISIÓN DESBLOQUEADA
