@@ -1,13 +1,13 @@
 tips.game.1=需要良好的早期食物来源吗？尝试§g野胡萝卜§r。
 tips.game.2=小心老板身边！
-tips.game.3=问问§gGoblin Trader§r，这个小家伙就能满足你的需求。
+tips.game.3=问问§g妖精商人§r，这个小家伙就能满足你的需求。
 tips.game.4=需要快速基地吗？四处搜寻！
 tips.game.5=他总是在注视着...
 tips.game.6=检查令人惊叹的新生物群系。
 tips.game.7=您是否知道在 Beta 版之前，Better on Bedrock 的名称为 §g'Better Vanilla'§r 和 §g'Vanilla Enhanced'§r？
-tips.game.8=使用§eBounty Board§r 来追捕你的猎物。
+tips.game.8=使用§e赏金委员会§r 来追捕你的猎物。
 tips.game.9=制作一个§g背包§r来存放你的好东西！
-tips.game.10=使用§gWaystones§r 来保存您的位置。
+tips.game.10=使用§g路石§r 来保存您的位置。
 tips.game.11=§5不要吃野胡萝卜！§r
 tips.game.12=他们为什么在这里？
 tips.game.13=Stitch：“现在 ping 可以结束了！”
@@ -15,7 +15,7 @@ tips.game.13=Stitch：“现在 ping 可以结束了！”
 
 bob.message.welcome=感谢您玩§7Better on Bedrock§r！请务必阅读信息书，以开始了解预期内容以及某些功能的工作原理！
 
-bob.message.dimensionLocation=§6%1§7、§6%2§7、§6%3§7、§rin%4§r
+bob.message.dimensionLocation=§6%1§7、§6%2§7、§6%3§7、§r在%4§r
 bob.message.youDiedAt=您去世于： 
 bob.message.achievementMade=%1§r已达到目标：%2§r
 bob.message.ghostnecklace.fail=抱歉，在硬核模式下您无法使用幽灵项链！
@@ -120,7 +120,7 @@ bob.message.waystone.name=名称：§7%1
 bob.message.waystone.nameGlobal=名称：§p%1
 bob.message.waystone.location=地点： 
 bob.message.waystone.teleporting=传送到§7%1§r...
-bob.message.waystone.zeroWaystones=没有可用的路标。
+bob.message.waystone.zero路石=没有可用的路标。
 bob.message.waystone.maxWarps=您已经设置了最大数量的路石！
 bob.message.waystone.maxGlobalWarps=全球路石数量已达到上限！
 
@@ -1219,7 +1219,7 @@ tile.better_on_bedrock:vp_grass_two.name=排空草
 
 tile.better_on_bedrock:voiding_log.name=作废日志
 tile.better_on_bedrock:voiding_wood.name=虚空木
-tile.better_on_bedrock:waystone.name=韦斯通
+tile.better_on_bedrock:waystone.name=路石
 tile.better_on_bedrock:waystone_block.name=路石块
 tile.better_on_bedrock:wild_carrot.name=野胡萝卜
 tile.better_on_bedrock:wildflower.name=野花
