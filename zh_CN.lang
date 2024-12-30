@@ -120,7 +120,7 @@ bob.message.waystone.name=名称：§7%1
 bob.message.waystone.nameGlobal=名称：§p%1
 bob.message.waystone.location=地点： 
 bob.message.waystone.teleporting=传送到§7%1§r...
-bob.message.waystone.zero路石=没有可用的路标。
+bob.message.waystone.zeroWaystones=没有可用的路标。
 bob.message.waystone.maxWarps=您已经设置了最大数量的路石！
 bob.message.waystone.maxGlobalWarps=全球路石数量已达到上限！
 
