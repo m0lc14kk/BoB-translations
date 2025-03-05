@@ -1,68 +1,68 @@
-tips.game.1=좋은 초기 식량 공급원이 필요하십니까? §g야생 당근§r을 먹어보세요.
-tips.game.2=상사 주변에서는 조심하세요!
-tips.game.3=§g고블린 상인§r에게 물어보세요. 이 작은 사람이 도와줄 것입니다.
-tips.game.4=빠른 기반이 필요하십니까? 주변을 검색하세요!.
-tips.game.5=그 사람은 항상 지켜보고 있어요...
-tips.game.6=놀라운 새로운 생물 군계를 확인하세요.
-tips.game.7=베타 이전에 Better on Bedrock의 이름이 §g'Better Vanilla'§r 및 §g'Vanilla Enhanced'§r라는 것을 알고 계셨습니까?
-tips.game.8=§e현상금 게시판§r을 사용하여 먹이를 사냥하세요.
+tips.game.1=게임 초반부의 식량으로는 §g야생 당근§r이 좋습니다.
+tips.game.2=보스몹이 근처에 있다면 조심스럽게 행동하세요!
+tips.game.3=§g고블린 상인§r은 안 파는 것이 없답니다!
+tips.game.4=은신처가 필요하시다면 주변을 잘 둘러보세요.
+tips.game.5=그는 항상 지켜보고 있습니다...
+tips.game.6=Better on Bedrock은 새로운 생물 군계들을 추가해줍니다. 한번 탐험해보세요!
+tips.game.7=Better on Bedrock은 베타 이전의 이름이 §g'Better Vanilla'§r와 §g'Vanilla Enhanced'§r였다는 것을 알고 계셨나요?
+tips.game.8=§e현상 수배 게시판§r으로 사냥감을 찾아보세요.
 tips.game.9=§g배낭§r을 만들어서 물건을 보관하세요!
-tips.game.10=§gWaystones§r을 사용하여 자리를 확보하세요.
-tips.game.11=§5야생 당근을 먹지 마세요!§r
-tips.game.12=그들은 왜 여기에 있는 걸까요??
-tips.game.13=스티치: "이제 핑이 끝날 수 있어요!"
+tips.game.10=§g귀환석§r은 여행을 편리하게 해줍니다.
+tips.game.11=§5야생 당근은 참 아삭하고 맛있죠.§r
+tips.game.12=이게 왜 여기에 있는거야??
+tips.game.13=Stitch: "핑 좀 적당히 해!"
 
 
-bob.message.welcome=Bedrock§r에서 §7Better를 플레이해주셔서 감사합니다! 무엇을 기대하고 어떻게 작동하는지 알아보려면 정보 책자를 꼭 읽어보세요!
+bob.message.welcome=§7Better on Bedrock§r을 플레이해주셔서 감사합니다! 애드온의 대략적인 구성은 정보 두루마리를 통해 확인할 수 있습니다.
 
 bob.message.dimensionLocation=§6%1§7, §6%2§7, §6%3§7, §rin %4§r
-bob.message.youDiedAt=귀하의 사망 시간: 
-bob.message.achievementMade=%1 §r이 목표에 도달했습니다: %2§r
-bob.message.ghostnecklace.fail=죄송합니다. 하드코어 모드에서는 유령 목걸이를 사용할 수 없습니다!
+bob.message.youDiedAt=당신의 사망 시간: 
+bob.message.achievementMade=%1§r님이 %2§r 목표를 달성했습니다
+bob.message.ghostnecklace.fail=하드코어 모드에서는 유령 목걸이를 사용할 수 없습니다!
 
-bob.message.ironWithCopperPick=이 광석은 구리나 더 좋은 곡괭이로만 채굴할 수 있습니다!
-bob.message.notEnoughLevels=레벨이 부족해요!
-bob.message.configUpdated=애드온 구성이 업데이트되었습니다!
-bob.message.cannotEnchant=이 도구는 마법을 부여할 수 없습니다. 마법부여 가능한 도구는 다음과 같습니다.
+bob.message.ironWithCopperPick=이 광석은 구리 또는 그 이상의 곡괭이로만 채굴할 수 있습니다!
+bob.message.notEnoughLevels=레벨이 부족합니다!
+bob.message.configUpdated=애드온 설정이 업데이트되었습니다!
+bob.message.cannotEnchant=이 도구에는 마법을 부여할 수 없습니다. 마법부여가 가능한 도구는 다음과 같습니다:
 
-bob.message.minerBench.noEnchants=이 항목에 더 이상 마법부여를 사용할 수 없습니다.
-bob.message.minerBench.noItems=필수항목이 없습니다!
+bob.message.minerBench.noEnchants=이 아이템에 더 이상 마법부여를 사용할 수 없습니다.
+bob.message.minerBench.noItems=필요한 아이템이 없습니다!
 
-bob.message.staffs.outOfMana=이 지팡이의 마나가 부족합니다
-bob.message.staffs.notEnoughMana=이 공격을 사용하기에는 마나가 부족합니다.
+bob.message.staffs.outOfMana=지팡이의 마나가 부족합니다
+bob.message.staffs.notEnoughMana=공격 시전에 필요한 마나가 부족합니다.
 
 
 bob.toast.questComplete=퀘스트 완료!
 bob.toast.achievementMade=목표 달성!
-bob.toast.bounty.bountyComplete=현상금 완료!
+bob.toast.bounty.bountyComplete=사냥 완료!
 bob.toast.bounty.claimYourRewards=보상을 받으세요!
-bob.toast.advancement.firstDay.name=초일?
-bob.toast.advancement.firstDay.desc=Bedrock에서 더 나은 플레이를 즐겨보세요!
+bob.toast.advancement.firstDay.name=모험 시작
+bob.toast.advancement.firstDay.desc=Better on Bedrock을 플레이하세요.
 
 
 gui.goBack=돌아가기
-bob.gui.nothing=여기서는 볼 것이 없습니다.
+bob.gui.nothing=아무것도 없군요.
 bob.gui.rewards=보상
-bob.gui.claim=주장하다
-bob.gui.claimAll=모두 청구
+bob.gui.claim=받기
+bob.gui.claimAll=모두 받기
 bob.gui.startHunt=사냥 시작
 bob.gui.startQuest=퀘스트 시작
 
 bob.gui.unlocked=잠금 해제됨
 bob.gui.available=사용 가능
-bob.gui.completed=완전한
+bob.gui.completed=완료
 
 
 bob.gui.wawla.displayName=표시 이름
 bob.gui.wawla.nameTag=이름표
 bob.gui.wawla.health=건강
 bob.gui.wawla.isBaby=아기
-bob.gui.wawla.tameChance=길들이기 기회
+bob.gui.wawla.tameChance=길들일 확률
 bob.gui.wawla.growth=성장
-bob.gui.wawla.isGrown=성장
+bob.gui.wawla.isGrown=완전히 성장함
 bob.gui.wawla.honey=꿀
 bob.gui.wawla.compostLevel=퇴비 수준
-bob.gui.wawla.correctTool=올바른 도구
+bob.gui.wawla.correctTool=적합한 도구
 bob.gui.wawla.canHarvest=수확 가능
 
 bob.gui.wawla.tool.hand=손
@@ -73,125 +73,125 @@ bob.gui.wawla.tool.shovel=삽
 
 bob.achievement.1=벤치마킹
 bob.achievement.2=석기 시대
-bob.achievement.3=업그레이드 받기
-bob.achievement.4=초라한 장소
-bob.achievement.5=하드웨어 획득
-bob.achievement.6=핫한 것들
-bob.achievement.7=정장을 입다
-bob.achievement.8=아이언픽 아닌가
+bob.achievement.3=더욱더 좋게
+bob.achievement.4=씨앗이 자라나는 곳
+bob.achievement.5=철이 철철 넘쳐
+bob.achievement.6=화끈한 화제
+bob.achievement.7=차려입기
+bob.achievement.8=이젠 철 좀 들어라
 bob.achievement.9=아이스 버킷 챌린지
-bob.achievement.10=다이아 패 한 벌
-bob.achievement.11=나를 다이아몬드로 덮어주세요
-bob.achievement.12=마법사
-bob.achievement.13=좀비닥터
-bob.achievement.14=§u눈 스파이
-bob.achievement.15=우리 손님이 되어주세요
+bob.achievement.10=다이아몬드다!
+bob.achievement.11=다이아몬드로 날 감싸줘
+bob.achievement.12=마법 부여자
+bob.achievement.13=좀비 의사
+bob.achievement.14=§u스무고개
+bob.achievement.15=벌집을 내 집처럼
 bob.achievement.16=절친
 
-bob.achievement.17=야생 당근을 사용하지 마세요
-bob.achievement.18=코코넛 너트는 거대한 너트입니까?
-bob.achievement.19=슬픈 날.
-bob.achievement.20=더 많은 여행
+bob.achievement.17=유기농
+bob.achievement.18=Da Coconut Nut
+bob.achievement.19=슬픈 날
+bob.achievement.20=세계일주
 bob.achievement.21=광부의 꿈
 bob.achievement.22=마법의 돌
 
 
-bob.gui.waystone.main.title=웨이스톤 메뉴
-bob.gui.waystone.main.desc=다른 웨이스톤을 추가하려면 웨이스톤 위에 몸을 숙이고 상호작용하세요.
+bob.gui.waystone.main.title=귀환석 메뉴
+bob.gui.waystone.main.desc=다른 귀환석을 추가하려면 웅크리면서 귀환석에 상호작용하세요.
 
-bob.gui.waystone.add.title=웨이스톤 추가
-bob.gui.waystone.add.desc.1=Waystone의 이름을 입력하세요.
-bob.gui.waystone.add.desc.2=§7이 필드가 채워지지 않으면 Waystone의 이름은 §8"Default"§r이 됩니다.
-bob.gui.waystone.add.desc.3=§7현재 웨이스톤과 이름이 동일할 경우 기존 웨이스톤을 덮어쓰게 됩니다.
-bob.gui.waystone.add.desc.4=§7다음이 있습니다: §c%1/%2 웨이스톤 세트§7.
-bob.gui.waystone.add.desc.5=§7글로벌 웨이스톤: §a%1/%2§7.
-bob.gui.waystone.add.placeholder=웨이스톤의 이름
-bob.gui.waystone.add.globalToggle=글로벌 웨이스톤
+bob.gui.waystone.add.title=귀환석 추가
+bob.gui.waystone.add.desc.1=이 귀환석의 이름을 정하세요.
+bob.gui.waystone.add.desc.2=§7이 필드가 채워지지 않으면 귀환석의 이름은 §8"Default"§r로 정해집니다.
+bob.gui.waystone.add.desc.3=§7귀환석의 이름이 기존 귀환석의 이름과 중복될 경우 기존 귀환석을 덮어쓰게 됩니다.
+bob.gui.waystone.add.desc.4=§7현재 귀환석: §c%1/%2§7.
+bob.gui.waystone.add.desc.5=§7광역 귀환석: §a%1/%2§7.
+bob.gui.waystone.add.placeholder=귀환석 이름
+bob.gui.waystone.add.globalToggle=차원 귀환석
 
-bob.gui.waystone.info.title=웨이스톤: §6%1
-bob.gui.waystone.info.desc.1=이 Waystone으로 순간이동하려고 합니다.
-bob.gui.waystone.info.desc.2=이 웨이스톤으로 순간이동하려면 §e%1 XP 레벨§r이 필요합니다.
-bob.gui.waystone.info.desc.3=차원을 넘어 순간이동하는 경우 §e%1 XP 레벨§r이 필요합니다.
-bob.gui.waystone.info.teleport=이 웨이스톤으로 순간이동하세요
-bob.gui.waystone.info.remove=이 웨이스톤을 제거하세요
-bob.message.waystone.added=웨이스톤이 추가되었습니다!
-bob.message.waystone.removed=웨이스톤이 제거되었습니다.
+bob.gui.waystone.info.title=귀환석: §6%1
+bob.gui.waystone.info.desc.1=이 귀환석으로 순간이동하려고 합니다.
+bob.gui.waystone.info.desc.2=귀환석 순간이동에 §e%1 경험 레벨§r이 소요됩니다.
+bob.gui.waystone.info.desc.3=차원을 넘어 순간이동하는 경우 §e%1 경험 레벨§r이 소요됩니다.
+bob.gui.waystone.info.teleport=이 귀환석으로 순간이동
+bob.gui.waystone.info.remove=이 귀환석 제거
+bob.message.waystone.added=귀환석이 생성되었습니다.
+bob.message.waystone.removed=귀환석이 제거되었습니다.
 bob.message.waystone.name=이름: §7%1
 bob.message.waystone.nameGlobal=이름: §p%1
 bob.message.waystone.location=위치: 
 bob.message.waystone.teleporting=§7%1§r로 순간이동 중...
-bob.message.waystone.zeroWaystones=사용 가능한 웨이스톤이 없습니다.
-bob.message.waystone.maxWarps=이미 최대량의 웨이스톤을 설정했습니다!
-bob.message.waystone.maxGlobalWarps=글로벌 웨이스톤의 최대 개수에 도달했습니다!
+bob.message.waystone.zeroWaystones=사용 가능한 귀환석이 없습니다.
+bob.message.waystone.maxWarps=더 이상 귀환석을 생성할 수 없습니다!
+bob.message.waystone.maxGlobalWarps=더 이상 차원 귀환석을 생성할 수 없습니다!
 
 
-bob.gui.playercorpse.title=시체의 먼지를 털까요?
-bob.gui.playercorpse.body=시체에 먼지를 뿌리면 그 안에 있는 모든 항목이 삭제됩니다. 아이템을 복구하려면 시체의 인벤토리를 여세요.
-bob.gui.playercorpse.dust=시체의 먼지를 털다
-bob.gui.playercorpse.keep=유지하세요
+bob.gui.playercorpse.title=시체를 제거할까요?
+bob.gui.playercorpse.body=시체를 제거하면 시체 안의 아이템이 모두 삭제됩니다. 시체의 보관함을 열어 아이템을 복구할 수 있습니다.
+bob.gui.playercorpse.dust=시체 제거
+bob.gui.playercorpse.keep=유지
 
 
 bob.message.questUnlocked=퀘스트 잠금 해제
 bob.message.questComplete=퀘스트 완료
 
-bob.quests.secret=비밀 퀘스트
+bob.quests.secret=숨겨진 퀘스트
 bob.quests.secret.toast=비밀?
 bob.quests.secret.toast.desc=퀘스트가 잠금 해제되었습니다.
 bob.quests.secret.1.name.1=별의 결정체
-bob.quests.secret.1.desc.1=깨진 Stellar 기록을 복구하세요. 어쩌면 대장간 테이블이 도움이 될 수도 있겠네요...
+bob.quests.secret.1.desc.1=깨진 별의 음반을 복구하세요. 제련대로 고칠 수도...?
 
 bob.gui.quests.title=퀘스트 메뉴
 bob.gui.quests.desc=퀘스트 챕터를 선택하세요.
-bob.gui.quests.regular=기본
+bob.gui.quests.regular=메인 퀘스트
 bob.gui.quests.bought=구매한 퀘스트
 
 bob.gui.quests.regular.title=퀘스트 티어
-bob.gui.quests.regular.desc=이 퀘스트는 여러분의 여행에 도움이 되는 가이드입니다!
-bob.gui.quests.tier=다음 단계의 잠금을 해제하려면 퀘스트를 완료하세요!
-bob.gui.quests.completed=퀘스트 완료! 이제 보상을 청구할 수 있습니다.
+bob.gui.quests.regular.desc=퀘스트는 여러분의 여행길을 이끌어줄 겁니다!
+bob.gui.quests.tier=다음 티어 잠금을 해제하려면 퀘스트를 완료하세요!
+bob.gui.quests.completed=퀘스트 완료! 이제 보상을 받을 수 있습니다.
 bob.message.quests.completeQuest=§7%1 §r퀘스트를 완료하고 보상을 받았습니다!
 bob.message.quests.tierUnlocked=§7"%1" §r티어를 완료했습니다!
 bob.message.quests.started=퀘스트가 시작되었습니다!
-bob.message.quests.alreadyClaimed=이 퀘스트의 보상은 이미 청구되었습니다.
+bob.message.quests.alreadyClaimed=이 퀘스트의 보상을 이미 받았습니다.
 bob.message.quests.claimedAll=모든 퀘스트를 성공적으로 완료했습니다!
-bob.message.quests.lockedTier=이 계층을 잠금 해제하려면 §7"%1"§r을 완료해야 합니다.
-bob.message.quests.lockedQuest=이 퀘스트를 잠금 해제하려면 §7"%1"§r을 완료해야 합니다.
+bob.message.quests.lockedTier=이 티어를 잠금 해제하려면 §7"%1"§r 퀘스트를 완료해야 합니다.
+bob.message.quests.lockedQuest=이 퀘스트를 잠금 해제하려면 §7"%1"§r 퀘스트를 완료해야 합니다.
 bob.gui.quests.status.locked=잠김
 bob.gui.quests.status.unlocked=잠금 해제됨
-bob.gui.quests.status.busy=바쁘다
-bob.gui.quests.status.completed=완전한
-bob.gui.quests.status.claimed=청구됨
-bob.quests.tier.1=시작하기
-bob.quests.tier.1.name.1=퍼스트우드
-bob.quests.tier.1.desc.1=세 개의 로그를 얻으십시오.
+bob.gui.quests.status.busy=진행중
+bob.gui.quests.status.completed=완료
+bob.gui.quests.status.claimed=보상 받음
+bob.quests.tier.1=모험의 시작
+bob.quests.tier.1.name.1=나무랄 데 없는 나무
+bob.quests.tier.1.desc.1=통나무 §73§r개를 얻으세요.
 bob.quests.tier.1.name.2=석기 시대
-bob.quests.tier.1.desc.2=§714x§r 조약돌을 얻으세요.
-bob.quests.tier.1.name.3=업그레이드 받기!
+bob.quests.tier.1.desc.2=조약돌 §714§r개를 얻으세요.
+bob.quests.tier.1.name.3=더욱더 좋게
 bob.quests.tier.1.desc.3=나무 곡괭이를 돌 곡괭이로 업그레이드하세요.
-bob.quests.tier.1.name.4=반어!
+bob.quests.tier.1.name.4=저 이제 철 들었어요
 bob.quests.tier.1.desc.4=곡괭이를 철 곡괭이로 업그레이드하세요.
-bob.quests.tier.1.name.5=다이아 패 한 벌???
-bob.quests.tier.1.desc.5=§79x§r 다이아몬드를 획득하세요.
+bob.quests.tier.1.name.5=다이아몬드???
+bob.quests.tier.1.desc.5=다이아몬드 §79§r개를 얻으세요.
 
-bob.quests.tier.2=채굴 시간
+bob.quests.tier.2=모험의 시간
 bob.quests.tier.2.name.1=상인
-bob.quests.tier.2.desc.1=사서 주민에게서 구매한 퀘스트로 교환하세요.
-bob.quests.tier.2.name.2=현상금 시간
-bob.quests.tier.2.desc.2=오버월드 어디에서나 찾을 수 있는 상인 전초기지에서 현상금 스크롤을 받으세요.
-bob.quests.tier.2.name.3=마법사 공예!
-bob.quests.tier.2.desc.3=불꽃 룬을 찾으세요.
+bob.quests.tier.2.desc.1=사서 주민으로부터 퀘스트를 구매하세요.
+bob.quests.tier.2.name.2=현상금 사냥꾼
+bob.quests.tier.2.desc.2=오버월드 어디에서나 찾을 수 있는 상인 전초기지에서 현상금 사냥 두루마리를 받으세요.
+bob.quests.tier.2.name.3=넌 마법사란다
+bob.quests.tier.2.desc.3=불꽃 룬을 획득하세요.
 bob.quests.tier.2.name.4=여행자
-bob.quests.tier.2.desc.4=웨이스톤을 얻으세요.
-bob.quests.tier.2.name.5=지팡이와 돌!
-bob.quests.tier.2.desc.5=외로운 마법사에게서 지팡이를 구입하세요.
+bob.quests.tier.2.desc.4=귀환석을 획득하세요.
+bob.quests.tier.2.name.5=스태프 앤 스톤
+bob.quests.tier.2.desc.5=떠돌이 마법사에게서 지팡이를 구입하세요.
 
 bob.quests.tier.3=네더 어라이즈
-bob.quests.tier.3.name.1=깊은 아래
-bob.quests.tier.3.desc.1=네더에서 코르스티나이트 주괴를 찾으세요.
+bob.quests.tier.3.name.1=저 깊은 아래
+bob.quests.tier.3.desc.1=네더에서 코르스티나이트 주괴를 획득하세요.
 bob.quests.tier.3.name.2=친구! :3
-bob.quests.tier.3.desc.2=케차카우 계란을 놓습니다. 네더 차원의 상자 안에서 찾을 수 있습니다.
-bob.quests.tier.3.name.3=돈게
-bob.quests.tier.3.desc.3=현무암 크로버 4마리를 사냥하세요. 현무암 삼각주에서 찾을 수 있습니다.
+bob.quests.tier.3.desc.2=케차카우 알을 두세요. 네더 차원의 상자 안에서 찾을 수 있습니다.
+bob.quests.tier.3.name.3=구두쇠 집게
+bob.quests.tier.3.desc.3=바살트 크로버 4마리를 사냥하세요. 현무암 삼각주에서 찾을 수 있습니다.
 bob.quests.tier.3.name.4=보호된 화염파괴체
 bob.quests.tier.3.desc.4=보호된 화염파괴물을 처치하세요.
 bob.quests.tier.3.name.5=메마른 사무라이
