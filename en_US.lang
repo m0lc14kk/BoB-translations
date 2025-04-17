@@ -1,3 +1,6 @@
+pack.name=Better on Bedrock - Resource Pack
+pack.description=Updating Minecraft by adding tons of new stuff along with reworks to the base game!
+
 ## Game Tips
 tips.game.1=Need a good early food source? Try a §gWild Carrot§r.
 tips.game.2=Be carefull around bosses!
@@ -43,14 +46,16 @@ bob.toast.bounty.bountyComplete=Bounty Complete!
 bob.toast.bounty.claimYourRewards=Claim Your Rewards!
 
 ### Advancement
-bob.toast.advancement.firstDay.name=First Day?
-bob.toast.advancement.firstDay.desc=Play Better on Bedrock!
+bob.toast.advancement.firstDay.name=Better on Bedrock
+bob.toast.advancement.firstDay.desc=A brand new world!
 
 
 ## Forms
 gui.goBack=Go back
 bob.gui.nothing=Nothing to see here.
 bob.gui.rewards=Rewards
+bob.gui.noRewards=No rewards...
+bob.gui.progress=Progress: §r§7%1/%2§r
 bob.gui.claim=Claim
 bob.gui.claimAll=Claim all
 bob.gui.startHunt=Start Hunt
@@ -82,28 +87,50 @@ bob.gui.wawla.tool.shovel=Shovel
 
 ## Achievements
 bob.achievement.1=Benchmarking
+bob.achievement.1.desc=Craft and place a crafting table
 bob.achievement.2=Stone Age
+bob.achievement.2.desc=Obtain a piece of cobblestone
 bob.achievement.3=Getting an Upgrade
+bob.achievement.3.desc=Upgrade your wooden pickaxe into a stone one
 bob.achievement.4=A Seedy Place
+bob.achievement.4.desc=Plant a crop
 bob.achievement.5=Acquire Hardware
+bob.achievement.5.desc=Obtain an iron ingot
 bob.achievement.6=Hot Stuff
+bob.achievement.6.desc=Pick up lava using a bucket
 bob.achievement.7=Suit Up
+bob.achievement.7.desc=Craft a piece of iron armor
 bob.achievement.8=Isn't It Iron Pick
+bob.achievement.8.desc=Upgrade your stone pickaxe into an iron one
 bob.achievement.9=Ice Bucket Challenge
+bob.achievement.9.desc=Obtain at least one obsidian
 bob.achievement.10=Diamonds
+bob.achievement.10.desc=Go into the mines and get yourself a diamond
 bob.achievement.11=Cover me with Diamonds
+bob.achievement.11.desc=Craft a piece of diamond armor
 bob.achievement.12=Enchanter
+bob.achievement.12.desc=Unlocked by enchanting a book
 bob.achievement.13=Zombie Doctor
-bob.achievement.14=§uEye Spy
+bob.achievement.13.desc=Obtain a golden apple
+bob.achievement.14=§uEye Spy§r
+bob.achievement.14.desc=Craft the eyes of ender
 bob.achievement.15=Bee Our Guest
+bob.achievement.15.desc=Obtain a honey bottle
 bob.achievement.16=BFF
+bob.achievement.16.desc=Obtain at least one lead
 
 bob.achievement.17=Don't Wild Carrots
+bob.achievement.17.desc=Obtain at least one wild carrot
 bob.achievement.18=Coconut nut is a giant nut?
+bob.achievement.18.desc=Coconut nut is a giant nut!
 bob.achievement.19=Sad Days.
+bob.achievement.19.desc=Obtain an ender tear
 bob.achievement.20=More Travels
+bob.achievement.20.desc=Waystones are really handy, don't be afraid of one.
 bob.achievement.21=Miner's Dream
+bob.achievement.21.desc=A new enchanter
 bob.achievement.22=Magic Stones
+bob.achievement.22.desc=What even is a stardust?
 
 
 ## Waystone
@@ -141,7 +168,7 @@ bob.message.waystone.maxGlobalWarps=The max amount of global waystones has been 
 
 ## Player Corpse
 bob.gui.playercorpse.title=Dust the corpse?
-bob.gui.playercorpse.body=Dusting the corpse will delete all items inside it. To recover your items, open the corpse's inventory.
+bob.gui.playercorpse.body=Dusting the corpse will drop all items that are stored inside it. You can also recover your items by opening the corpse's inventory
 bob.gui.playercorpse.dust=Dust the corpse
 bob.gui.playercorpse.keep=Keep it
 
@@ -198,7 +225,7 @@ bob.quests.tier.1.desc.4=Upgrade your pickaxe to an Iron Pickaxe.
 bob.quests.tier.1.name.5=Diamonds???
 bob.quests.tier.1.desc.5=Get §79x§r Diamonds.
 
-bob.quests.tier.2=Mining Time
+bob.quests.tier.2=Adventure Time
 bob.quests.tier.2.name.1=Trader
 bob.quests.tier.2.desc.1=Trade for a bought quest at a librarian villager.
 bob.quests.tier.2.name.2=Bounty Time
@@ -232,7 +259,7 @@ bob.quests.tier.4.desc.3=Get §714x§r String.
 bob.quests.tier.4.name.4=More Souls
 bob.quests.tier.4.desc.4=Get two Souls by slaying mobs.
 
-bob.quests.tier.5=The Willager
+bob.quests.tier.5=More Food
 bob.quests.tier.5.name.1=A Big Nut
 bob.quests.tier.5.desc.1=Get a broken open Coconut by breaking open a coconut on stone.
 bob.quests.tier.5.name.2=Eggs as plants?
@@ -248,7 +275,7 @@ bob.quests.tier.5.desc.6=Get half-a-stack (§732x§r) Baked Onion by cooking Oni
 bob.quests.tier.5.name.7=Le Baguette
 bob.quests.tier.5.desc.7=Get a Baguette.
 
-bob.quests.tier.6=Adventure Time!
+bob.quests.tier.6=Combat Time!
 bob.quests.tier.6.name.1=Bow Master
 bob.quests.tier.6.desc.1=Get §748x§r Arrows.
 bob.quests.tier.6.name.2=Staying Healthy
@@ -349,39 +376,39 @@ bob.gui.bounty.status.claimed=Reward claimed.
 
 ### List
 bob.bounty.name.1=Cow Slayer I
-bob.bounty.desc.1=Hunt down 3 Cows.
+bob.bounty.desc.1=Hunt down %1 Cows.
 bob.bounty.name.2=Zombie Slayer II
-bob.bounty.desc.2=Hunt down 8 Zombies.
+bob.bounty.desc.2=Hunt down %1 Zombies.
 bob.bounty.name.3=Pig Hunter II
-bob.bounty.desc.3=Hunt down 6 Pigs.
+bob.bounty.desc.3=Hunt down %1 Pigs.
 bob.bounty.name.4=Sheep Hunter I
-bob.bounty.desc.4=Hunt down 3 Sheep.
+bob.bounty.desc.4=Hunt down %1 Sheep.
 bob.bounty.name.5=Ghast Hunter III
-bob.bounty.desc.5=Hunt down 6 Ghasts.
+bob.bounty.desc.5=Hunt down %1 Ghasts.
 bob.bounty.name.6=Phantom Hunter IV
-bob.bounty.desc.6=Hunt down 12 Phantoms.
+bob.bounty.desc.6=Hunt down %1 Phantoms.
 bob.bounty.name.7=Deer Slayer II
-bob.bounty.desc.7=Hunt down 5 Deers.
+bob.bounty.desc.7=Hunt down %1 Deers.
 bob.bounty.name.8=Spider Hunter II
-bob.bounty.desc.8=Hunt down 5 Spiders.
+bob.bounty.desc.8=Hunt down %1 Spiders.
 bob.bounty.name.9=Skeleton Hunter III
-bob.bounty.desc.9=Hunt down 5 Skeletons.
+bob.bounty.desc.9=Hunt down %1 Skeletons.
 bob.bounty.name.10=Blaze Hunter V
-bob.bounty.desc.10=Hunt down 13 Blazes.
+bob.bounty.desc.10=Hunt down %1 Blazes.
 bob.bounty.name.11=Piglin Hunter V
-bob.bounty.desc.11=Hunt down 7 Piglin Brutes.
+bob.bounty.desc.11=Hunt down %1 Piglin Brutes.
 bob.bounty.name.12=Vex Hunter IV
-bob.bounty.desc.12=Hunt down 5 Vexes.
+bob.bounty.desc.12=Hunt down %1 Vexes.
 bob.bounty.name.13=Enderman Hunter III
-bob.bounty.desc.13=Hunt down 16 Endermans.
+bob.bounty.desc.13=Hunt down %1 Endermans.
 bob.bounty.name.14=Vindicator Hunter I
-bob.bounty.desc.14=Hunt down 4 Vindicators.
+bob.bounty.desc.14=Hunt down %1 Vindicators.
 bob.bounty.name.15=Witch Hunter III
-bob.bounty.desc.15=Hunt down 5 Witches.
+bob.bounty.desc.15=Hunt down %1 Witches.
 bob.bounty.name.16=Evoker Hunter II
-bob.bounty.desc.16=Hunt down 10 Evokers.
+bob.bounty.desc.16=Hunt down %1 Evokers.
 bob.bounty.name.17=Ravager Hunter III
-bob.bounty.desc.17=Hunt down 4 Ravagers.
+bob.bounty.desc.17=Hunt down %1 Ravagers.
 bob.bounty.name.18=Willager Hunter I
 bob.bounty.desc.18=Hunt down a Willager.
 bob.bounty.name.19=Flender Hunter I
@@ -390,7 +417,26 @@ bob.bounty.name.20=Enchanter Hunter I
 bob.bounty.desc.20=Hunt down an Enchanter.
 
 
+## Item Groups
+itemGroup.better_on_bedrock:magic_staffs.name=Magic Staffs
+itemGroup.better_on_bedrock:spears.name=Spears
+itemGroup.better_on_bedrock:wearables.name=Wearables
+itemGroup.better_on_bedrock:trophy_items.name=Item Trophies
+itemGroup.better_on_bedrock:quests_and_bounties.name=Quests & Bounties
+itemGroup.better_on_bedrock:runes.name=Runes
+itemGroup.better_on_bedrock:lootbags.name=Lootbags
+itemGroup.better_on_bedrock:trophy_blocks.name=Block Trophies
+itemGroup.better_on_bedrock:waystone.name=Waystone
+itemGroup.better_on_bedrock:boss_eyes.name=Boss Eyes
+itemGroup.better_on_bedrock:crafting_tables.name=Crafting Tables
+itemGroup.better_on_bedrock:plushies.name=Plushies
+itemGroup.better_on_bedrock:stardust.name=Stardust
+itemGroup.better_on_bedrock:thin_logs.name=Thin Logs
+itemGroup.better_on_bedrock:end_grass.name=End Grass
+
+
 ## Entities
+entity.better_on_bedrock:guide_book.name=Guide Book
 entity.better_on_bedrock:thrown_amethyst_spear.name=Amethyst Spear
 entity.better_on_bedrock:thrown_diamond_spear.name=Diamond Spear
 entity.better_on_bedrock:thrown_golden_spear.name=Golden Spear
@@ -402,7 +448,7 @@ entity.better_on_bedrock:frostaeris.name=Frostaeris
 entity.better_on_bedrock:wand_iceologer_iceblock.name=Falling Ice
 entity.better_on_bedrock:iceologer_iceblock.name=Falling Ice
 entity.better_on_bedrock:iceologer_iceblock_fall.name=Frostaeris
-entity.better_on_bedrock:basalt_crobber.name=Basalt Crobber
+entity.better_on_bedrock:bassalt_crobber.name=Basalt Crobber
 entity.better_on_bedrock:fire_wisp.name=Fire Wisp
 entity.better_on_bedrock:poison_ball.name=Poison Ball
 entity.better_on_bedrock:bacterio.name=Bacterio
@@ -485,8 +531,7 @@ entity.better_on_bedrock:willager.name=Willager
 entity.better_on_bedrock:willager_clone.name=Willager Decoy
 entity.better_on_bedrock:withered_samurai.name=Withered Samurai
 entity.better_on_bedrock:wooden_spear.name=Wooden Spear
-entity.better_on_bedrock:pigeon.name=Pigeon
-entity.better_on_bedrock:piglin_trader.name=Piglin Trader
+entity.better_on_bedrock:legrang.name=Legrang
 entity.player.name=Player
 
 
@@ -496,6 +541,9 @@ item.iron_nugget.name=Raw Iron Fragment
 
 
 ## Items
+item.better_on_bedrock:guide_book.name=Guide Book
+item.better_on_bedrock.guide_book.name=Guide Book
+item.better_on_bedrock.guide_book.desc=§7Better on Bedrock
 item.better_on_bedrock:tall_eyeblossom.name=Tall Blossom
 item.better_on_bedrock:tall_blossom.name=Tall Eyeblossom
 item.better_on_bedrock:voiding_grass.name=Voiding Grass
@@ -605,7 +653,7 @@ item.better_on_bedrock:combustible_scrap.name=Combustible Scrap
 item.better_on_bedrock.combustible_scrap.name=Combustible Scrap
 item.better_on_bedrock.combustible_scrap.desc=§7Dropped from Bacterio§r
 item.better_on_bedrock:common_lootbag.name=Common Lootbag
-item.better_on_bedrock:config.name=Add-On Config
+item.better_on_bedrock:config.name=Pack Config
 item.better_on_bedrock:cooked_deer_meat.name=Cooked Deer Meat
 item.better_on_bedrock:cooked_mutton_chops.name=Cooked Mutton Chops
 item.better_on_bedrock:copper_axe.name=Copper Axe
@@ -677,7 +725,7 @@ item.better_on_bedrock:grape_seed.name=Grape
 item.better_on_bedrock:green_stone.name=Withered Nether Stone
 item.better_on_bedrock:hanging_pot.name=Hanging Pot
 item.better_on_bedrock:healthy_carrot.name=Healthy Carrot
-item.better_on_bedrock:horn.name=Horn
+item.better_on_bedrock:horn.name=Groohog Horn
 item.better_on_bedrock:houstinia=Azure Bluet
 item.better_on_bedrock:lava_salad.name=Lava Salad
 item.better_on_bedrock:legrang.name=Legrang
@@ -947,7 +995,9 @@ item.spawn_egg.entity.minecraft:piglin_trader.name=Spawn Piglin Trader
 
 
 ## Blocks
+tile.better_on_bedrock:taller_grass.name=Taller Grass
 tile.better_on_bedrock:tall_abyss_grass.name=Tall Abyssal Grass
+tile.better_on_bedrock:tall_chorus_grass.name=Tall Chorus Grass
 tile.better_on_bedrock:vacant_lumen_flower=Voiding Lumen Flower
 tile.better_on_bedrock:lunar.name=Lunar Flower
 tile.better_on_bedrock:lunar2.name=Lunar Flower
@@ -966,7 +1016,7 @@ tile.better_on_bedrock:chorus_wood_stripped.name=Stripped Chorus Wood
 tile.better_on_bedrock:chorus_log_stripped.name=Stripped Chorus Log
 tile.better_on_bedrock:clematis.name=Clematis
 tile.better_on_bedrock:bellflower.name=Bellflower
-tile.better_on_bedrock:smooth_resin.name=Smooth Resin Block
+tile.better_on_bedrock:smooth_resin.name=Polished Resin Block
 tile.better_on_bedrock:pale_spore_blossom.name=Pale Spore Blossom
 tile.better_on_bedrock:lamp_resin.name=Resin Lamp
 tile.better_on_bedrock:cut_resin.name=Cut Resin
@@ -976,23 +1026,23 @@ tile.better_on_bedrock:eyepale_vines_body.name=Eyepale Vines
 tile.better_on_bedrock:eyepale_vines_head.name=Eyepale Vines
 tile.better_on_bedrock:tall_blossom.name=Tall Blossom
 tile.better_on_bedrock:tall_eyeblossom.name=Tall Eyeblossom
-tile.better_on_bedrock:soulsand_bricks_wall.name=Soulsand Brick Wall
-tile.better_on_bedrock:soulsand_bricks_slab.name=Soulsand Brick Slab
-tile.better_on_bedrock:soulsand_bricks.name=Soulsand Bricks
+tile.better_on_bedrock:soulsand_bricks_wall.name=Soul Sand Brick Wall
+tile.better_on_bedrock:soulsand_bricks_slab.name=Soul Sand Brick Slab
+tile.better_on_bedrock:soulsand_bricks.name=Soul Sand Bricks
 tile.better_on_bedrock:basalt_bricks.name=Basalt Bricks
-tile.better_on_bedrock:cracked_endstone_bricks.name=Cracked Endstone Bricks
+tile.better_on_bedrock:cracked_endstone_bricks.name=Cracked End Stone Bricks
 tile.better_on_bedrock:smooth_basalt.name=Smooth Basalt
 tile.better_on_bedrock:chissled_basalt_bricks.name=Chiseled Basalt Bricks
 tile.better_on_bedrock:cracked_dripstone_bricks.name=Cracked Dripstone Bricks
 tile.better_on_bedrock:dripstone_bricks.name=Dripstone Bricks
 tile.better_on_bedrock:cobbled_granite.name=Cobbled Granite
-tile.better_on_bedrock:bricked_mud.name=Bricked Mud
+tile.better_on_bedrock:bricked_mud.name=Mud Tiles
 tile.better_on_bedrock:cobbled_andesite.name=Cobbled Andesite
 tile.better_on_bedrock:sandstone_bricks.name=Sandstone Bricks
 tile.better_on_bedrock:smooth_sandstone_bricks.name=Smooth Sandstone Bricks
-tile.better_on_bedrock:packed_soulsand.name=Packed Soulsand
+tile.better_on_bedrock:packed_soulsand.name=Packed Soul Sand
 tile.better_on_bedrock:polished_basalt.name=Polished Basalt
-tile.better_on_bedrock:chissled_purper_bricks.name=Chiseled Purpur Bricks
+tile.better_on_bedrock:chissled_purper_bricks.name=Purpur Bricks
 
 tile.better_on_bedrock:cobbled_sandstone.name=Cobbled Sandstone
 
@@ -1029,9 +1079,9 @@ tile.better_on_bedrock:basalt_bricks_wall.name=Basalt Brick Wall
 tile.better_on_bedrock:red_sandstone_bricks_wall.name=Red Sandstone Brick Wall
 tile.better_on_bedrock:red_sandstone_bricks_slab.name=Red Sandstone Brick Slab
 tile.better_on_bedrock:red_sandstone_bricks.name=Red Sandstone Bricks
-tile.better_on_bedrock:cobbled_red_sandstone_wall.name=Cobbled Sandstone Wall
-tile.better_on_bedrock:cobbled_red_sandstone.name=Cobbled Sandstone
-tile.better_on_bedrock:cobbled_red_sandstone_slab.name=Cobbled Sandstone Slab
+tile.better_on_bedrock:cobbled_red_sandstone_wall.name=Cobbled Red Sandstone Wall
+tile.better_on_bedrock:cobbled_red_sandstone.name=Cobbled Red Sandstone
+tile.better_on_bedrock:cobbled_red_sandstone_slab.name=Cobbled Red Sandstone Slab
 tile.better_on_bedrock:dripstone_brick_slab.name=Dripstone Brick Slab
 tile.better_on_bedrock:diorite_brick_wall.name=Diorite Brick Wall
 
@@ -1039,6 +1089,8 @@ tile.better_on_bedrock:diorite_brick_wall.name=Diorite Brick Wall
 
 tile.better_on_bedrock:abyss_stone.name=Abyssal Stone
 tile.better_on_bedrock:stardust_block.name=Block of Stardust
+tile.better_on_bedrock:tin_block.name=Block of Tin
+tile.better_on_bedrock:corstinite_block.name=Block of Corstinite
 tile.better_on_bedrock:abyss_stone_crying.name=Crying Abyssal Stone
 tile.better_on_bedrock:acacia_crafting_table.name=Acacia Crafting Table
 tile.better_on_bedrock:alluminum_ore=Aluminum Ore
@@ -1074,7 +1126,7 @@ tile.better_on_bedrock:chorus_log.name=Chorus Log
 tile.better_on_bedrock:chorus_wood.name=Chorus Wood
 tile.better_on_bedrock:chorus_planks.name=Chorus Planks
 tile.better_on_bedrock:chorus_plant.name=Chorus Plant
-tile.better_on_bedrock:chorus_slab.name=Chorus Planks Slab
+tile.better_on_bedrock:chorus_slab.name=Chorus Slab
 tile.better_on_bedrock:chorus_trapdoor.name=Chorus Trapdoor
 tile.better_on_bedrock:chorus_vine_head.name=Chorus Vine Head
 tile.better_on_bedrock:chorus_vines.name=Chorus Vines
@@ -1100,7 +1152,7 @@ tile.better_on_bedrock:dripstone_slab.name=Polished Dripstone Slab
 tile.better_on_bedrock:dripstone_stairs.name=Polished Dripstone Stairs
 tile.better_on_bedrock:dummy_chest.name=Chest
 tile.better_on_bedrock:dusk_planks.name=Vacant Planks
-tile.better_on_bedrock:dusk_slab.name=Vacant Planks Slab
+tile.better_on_bedrock:dusk_slab.name=Vacant Slab
 tile.better_on_bedrock:eggplant_crop.name=Eggplant Crop
 tile.better_on_bedrock:enchant_bench.name=Miner Bench
 tile.better_on_bedrock:enchantaegis_trophy.name=Enchantaegis Trophy
@@ -1128,6 +1180,7 @@ tile.better_on_bedrock:granite_brick_stairs.name=Polished Granite Brick Stairs
 tile.better_on_bedrock:granite_bricks.name=Polished Granite Bricks
 tile.better_on_bedrock:grape.name=Grape Bush
 tile.better_on_bedrock:grape_fully_grown.name=Grape Bush
+tile.better_on_bedrock:hanging_pot_base.name=Hanging Pot
 tile.better_on_bedrock:healing_campfire.name=Healing Campfire
 tile.better_on_bedrock:healthy_carrot.name=Healthy Carrot
 tile.better_on_bedrock:hydrangea.name=Hydrangea
@@ -1136,7 +1189,7 @@ tile.better_on_bedrock:jungle_crafting_table.name=Jungle Crafting Table
 tile.better_on_bedrock:leaf_pile.name=Leaf Pile
 tile.better_on_bedrock:lilac_pot.name=Hanging Lilac Pot
 tile.better_on_bedrock:lilax_heads.name=Lilac Heads
-tile.better_on_bedrock:lime_slimeshroom.name=Lime Slimeshroom
+tile.better_on_bedrock:lime_slimeshroom.name=Cyan Slimeshroom
 tile.better_on_bedrock:lumen_flower.name=Lumen Flower
 tile.better_on_bedrock:lush_grass_bottom.name=Lush Grass
 tile.better_on_bedrock:lush_grass.name=Lush Grass
@@ -1151,10 +1204,10 @@ tile.better_on_bedrock:malbite_bricks.name=Malbite Bricks
 tile.better_on_bedrock:malbite_bricks_slab.name=Malbite Brick Slab
 tile.better_on_bedrock:malbite_chiseled.name=Chiseled Malbite
 tile.better_on_bedrock:malbite_frame.name=Malbite Frame
-tile.better_on_bedrock:malbite_smooth.name=Smooth Malbite
-tile.better_on_bedrock:malbite_smooth_slab.name=Smooth Malbite Slab
-tile.better_on_bedrock:malbite_smoother.name=Smoother Malbite
-tile.better_on_bedrock:malbite_smoother_slab.name=Smoother Malbite Slab
+tile.better_on_bedrock:malbite_smooth.name=Polished Malbite
+tile.better_on_bedrock:malbite_smooth_slab.name=Polished Malbite Slab
+tile.better_on_bedrock:malbite_smoother.name=Smooth Malbite
+tile.better_on_bedrock:malbite_smoother_slab.name=Smooth Malbite Slab
 tile.better_on_bedrock:mangrove_crafting_table.name=Mangrove Crafting Table
 tile.better_on_bedrock:moss_pot.name=Hanging Moss Pot
 tile.better_on_bedrock:mossy_andisite_bricks.name=Mossy Polished Andesite Bricks
@@ -1196,7 +1249,7 @@ tile.better_on_bedrock:shroom_shrub.name=Shroom Shrub
 tile.better_on_bedrock:shrub.name=Shrub
 tile.better_on_bedrock:shrub_nylium.name=Fungal Nylium
 tile.better_on_bedrock:shrubflower.name=Shrubflower
-tile.better_on_bedrock:shrubflower_stem.name=shrubflower_stem
+tile.better_on_bedrock:shrubflower_stem.name=Shrubflower Stem
 tile.better_on_bedrock:shrubleaves.name=Vacant Leaves
 tile.better_on_bedrock:shrublog.name=Vacant Log
 tile.better_on_bedrock:vacant_wood.name=Vacant Wood
@@ -1209,9 +1262,12 @@ tile.better_on_bedrock:oak_small_log.name=Small Oak Log
 tile.better_on_bedrock:spruce_small_log.name=Small Spruce Log
 tile.better_on_bedrock:cherry_small_log.name=Small Cherry Log
 tile.better_on_bedrock:mangrove_small_log.name=Small Mangrove Log
-tile.better_on_bedrock:pale_small_log.name=Small Pale Oak Log
+tile.better_on_bedrock:pale_small_log.name=Small Pale Log
+tile.better_on_bedrock:chorus_small_log.name=Small Chorus Log
+tile.better_on_bedrock:vacant_small_log.name=Small Vacant Log
+tile.better_on_bedrock:voiding_small_log.name=Small Voiding Log
 tile.better_on_bedrock:small_chorus_spore.name=Small Spore
-tile.better_on_bedrock:soul_jar.name=Soul Jar
+tile.better_on_bedrock:soul_jar_block.name=Soul Jar
 tile.better_on_bedrock:soul_star_block.name=Broken Soul Beacon
 tile.better_on_bedrock:spruce_crafting_table.name=Spruce Crafting Table
 tile.better_on_bedrock:stardust_ore=Stardust Ore
@@ -1255,16 +1311,17 @@ tile.better_on_bedrock:voiding_door.name=Voiding Door
 tile.better_on_bedrock:voiding_trapdoor.name=Voiding Trapdoor
 tile.better_on_bedrock:voiding_plains_end_blossom.name=Voiding Plains End Blossom
 tile.better_on_bedrock:voiding_planks.name=Voiding Planks
-tile.better_on_bedrock:voiding_slab.name=Voiding Planks Slab
+tile.better_on_bedrock:voiding_slab.name=Voiding Slab
 tile.better_on_bedrock:vp_grass.name=Voiding Grass Block
 tile.better_on_bedrock:vp_grass_two.name=Voiding Grass
+tile.better_on_bedrock:voiding_grass.name=Voiding Grass
 
-tile.better_on_bedrock:voiding_log.name=Voided Log
-tile.better_on_bedrock:voiding_wood.name=Voided Wood
+tile.better_on_bedrock:voiding_log.name=Voiding Log
+tile.better_on_bedrock:voiding_wood.name=Voiding Wood
 tile.better_on_bedrock:waystone.name=Waystone
 tile.better_on_bedrock:waystone_block.name=Waystone Block
 tile.better_on_bedrock:wild_carrot.name=Wild Carrot
-tile.better_on_bedrock:wildflower.name=WildFlower
+tile.better_on_bedrock:wildflower.name=Wildflower
 tile.better_on_bedrock:willager_hat.name=§eWillager Hat§r
 tile.better_on_bedrock:willager_plushie.name=Willager Plushie
 tile.better_on_bedrock:willager_statue.name=Willager Statue [Trophy]
