@@ -21,7 +21,7 @@ tips.game.13=Stitch: "핑 좀 적당히 해!"
 bob.message.welcome=§7Better on Bedrock§r을 플레이해주셔서 감사합니다! 애드온의 대략적인 구성은 정보 두루마리를 통해 확인할 수 있습니다.
 
 bob.message.dimensionLocation=§6%1§7, §6%2§7, §6%3§7, §r%4§r
-bob.message.youDiedAt=사망 시간: 
+bob.message.youDiedAt=사망 위치: 
 bob.message.achievementMade=%1§r님이 %2§r 목표를 달성했습니다
 bob.message.ghostnecklace.fail=하드코어 모드에서는 유령 목걸이를 사용할 수 없습니다!
 
