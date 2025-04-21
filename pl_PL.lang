@@ -1,35 +1,34 @@
 tips.game.1=Potrzebujesz dobrego wczesnego źródła pożywienia? Spróbuj §gDzikiej marchewki§r.
 tips.game.2=Bądź ostrożny w pobliżu bossów!
 tips.game.3=Zapytaj §gGoblińskiego Handlarza§r, ten mały facet cię załatwi.
-tips.game.4=Potrzebujesz szybkiej bazy? Szukaj w okolicy!.
+tips.game.4=Potrzebujesz szybkiej bazy? Szukaj w okolicy!
 tips.game.5=On zawsze patrzy...
-tips.game.6=Sprawdź niesamowite nowe biomy.
-tips.game.7=Czy wiesz, że Better on Bedrock nazywało się §g'Better Vanilla'§r i §g'Vanilla Enhanced'§r Przed wersją beta?
-tips.game.8=Użyj §eBounty Board§r, aby upolować swoją ofiarę.
-tips.game.9=Stwórz §gPlecak§r do przechowywania swoich gadżetów!
-tips.game.10=Użyj §gWaystones§r, aby zapisać swoje miejsce.
-tips.game.11=§5Nie rób dzikiej marchewki!§r
-tips.game.12=Dlaczego oni tu są??
+tips.game.6=Sprawdź nowe, niesamowite biomy.
+tips.game.7=Czy wiesz, że Better on Bedrock nazywało się §g'Better Vanilla'§r i §g'Vanilla Enhanced'§r przed wersją beta?
+tips.game.8=Użyj §etablicy z nagrodami§r, aby upolować swoją ofiarę.
+tips.game.9=Stwórz §gplecak§r do przechowywania swoich gadżetów!
+tips.game.10=Użyj §gkamieni milowych§r, aby zapisać swoje miejsce.
+tips.game.11=§5Nie rob dzikiej marchewki!§r
+tips.game.12=Dlaczego oni tu są?
 tips.game.13=Stitch: „Teraz sygnały mogą się skończyć!”
 
 
-bob.message.welcome=Dziękujemy za grę na §7Better na Bedrock§r! Koniecznie przeczytaj książkę informacyjną, aby dowiedzieć się, czego się spodziewać i jak działają niektóre rzeczy!
+bob.message.welcome=Dziękujemy za grę na §7Better na Bedrock§r! Koniecznie przeczytaj książkę informacyjną, aby dowiedzieć się, czego się spodziewać i jak działają poszczególne rzeczy!
 
 bob.message.dimensionLocation=§6%1§7, §6%2§7, §6%3§7, §rin %4§r
-bob.message.youDiedAt=Zmarłeś w: 
+bob.message.youDiedAt=Umarłeś w: 
 bob.message.achievementMade=%1 §r osiągnął cel: %2§r
-bob.message.ghostnecklace.fail=Przepraszamy, nie możesz używać naszyjnika ducha w trybie Hardkorowym!
+bob.message.ghostnecklace.fail=Przepraszamy, nie możesz używać naszyjnika ducha w trybie hardkorowym!
 
-bob.message.ironWithCopperPick=Tę rudę możesz wydobywać tylko miedzianym lub lepszym kilofem!
-bob.message.notEnoughLevels=Nie masz wystarczającej liczby poziomów!
+bob.message.notEnoughLevels=Nie posiadasz wystarczającej liczby poziomów!
 bob.message.configUpdated=Zaktualizowano konfigurację dodatku!
 bob.message.cannotEnchant=Tego narzędzia nie można zaklnąć. Zaklęte narzędzia to:
 
 bob.message.minerBench.noEnchants=Nie ma już dostępnych zaklęć dla tego przedmiotu.
 bob.message.minerBench.noItems=Nie masz wymaganych przedmiotów!
 
-bob.message.staffs.outOfMana=Temu personelowi skończyła się mana
-bob.message.staffs.notEnoughMana=Za mało many, aby użyć tego ataku
+bob.message.staffs.outOfMana=Temu personelowi skończyła się mana.
+bob.message.staffs.notEnoughMana=Za mało many, aby użyć tego ataku.
 
 
 bob.toast.questComplete=Zadanie ukończone!
@@ -37,11 +36,11 @@ bob.toast.achievementMade=Cel osiągnięty!
 bob.toast.bounty.bountyComplete=Nagroda ukończona!
 bob.toast.bounty.claimYourRewards=Odbierz swoje nagrody!
 bob.toast.advancement.firstDay.name=Pierwszy dzień?
-bob.toast.advancement.firstDay.desc=Graj lepiej na Bedrock!
+bob.toast.advancement.firstDay.desc=Graj na Better on Bedrock!
 
 
 gui.goBack=Powrót
-bob.gui.nothing=Nie ma tu nic do zobaczenia.
+bob.gui.nothing=Zakładka nic nie zawiera do sprawdzenia.
 bob.gui.rewards=Nagrody
 bob.gui.claim=Odbierz
 bob.gui.claimAll=Zażądaj wszystkiego
@@ -53,7 +52,7 @@ bob.gui.available=Dostępny
 bob.gui.completed=Zakończony
 
 
-bob.gui.wawla.displayName=Nazwa wyświetlana
+bob.gui.wawla.displayName=Wyświetlana nazwa
 bob.gui.wawla.nameTag=Etykieta z nazwą
 bob.gui.wawla.health=Zdrowie
 bob.gui.wawla.isBaby=Dziecko
