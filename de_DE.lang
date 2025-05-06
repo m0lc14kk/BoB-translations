@@ -2,7 +2,7 @@ pack.name=Better on Bedrock - Ressourcenpaket
 pack.description=Überarbeitetes Minecraft mit einer Riesenmenge an neuem Zeug!
 
 ## Game Tips
-tips.game.1=Brauchst Du eine gute, frühe Nahrungsquelle? Probier' mal eine §gWilde Karotte§r.
+tips.game.1=Brauchst Du eine gute, frühe Nahrungsquelle? Probier mal eine §gWilde Karotte§r.
 tips.game.2=Sei vorsichtig im Umgang mit Bossen!
 tips.game.3=Frag den §gGoblin-Händler§r – der kleine Kerl ist für Dich da.
 tips.game.4=Brauchst Du schnell eine Basis? Schau Dich um!
@@ -25,7 +25,7 @@ bob.message.youDiedAt=Du bist hier gestorben:
 bob.message.achievementMade=%1 §rhat das Ziel erreicht: %2§r
 bob.message.ghostnecklace.fail=Leider kannst du die Geisterhalskette im Hardcore-Modus nicht verwenden!
 
-bob.message.ironWithCopperPick=Du kannst dieses Erz nur mit einer Spitzhacke aus Kupfer oder besser abbauen!
+bob.message.ironWithCopperPick=Für dieses Erz benötigst Du mindestens eine Kupfer-Spitzhacke.
 bob.message.notEnoughLevels=Dein Level ist nicht hoch genug!
 bob.message.configUpdated=Addon-Konfiguration aktualisiert!
 bob.message.cannotEnchant=Dieses Werkzeug kann nicht verzaubert werden. Verzauberbare Werkzeuge sind:
@@ -33,8 +33,8 @@ bob.message.cannotEnchant=Dieses Werkzeug kann nicht verzaubert werden. Verzaube
 bob.message.minerBench.noEnchants=Für diesen Gegenstand sind keine weiteren Verzauberungen verfügbar.
 bob.message.minerBench.noItems=Du hast nicht die benötigten Gegenstände!
 
-bob.message.staffs.outOfMana=Diesem Stab ging das Mana aus
-bob.message.staffs.notEnoughMana=Nicht genug Mana, um diesen Angriff auszuführen
+bob.message.staffs.outOfMana=Diesem Stab ging das Mana aus.
+bob.message.staffs.notEnoughMana=Nicht genug Mana, um diesen Angriff auszuführen.
 
 
 ## JSON-UI Toasts
@@ -151,8 +151,8 @@ bob.gui.waystone.info.title=Wegpunkt: §6%1
 bob.gui.waystone.info.desc.1=Du bist dabei, dich zu diesem Wegpunkt zu teleportieren.
 bob.gui.waystone.info.desc.2=Das Teleportieren zu diesem Wegpunkt erfordert §e%1 XP-Level§r.
 bob.gui.waystone.info.desc.3=Wenn Du Dich über Dimensionen hinweg teleportierst, kostet das §e%1 XP-Level§r.
-bob.gui.waystone.info.teleport=Teleportiere Dich zu diesem Wegpunkt
-bob.gui.waystone.info.remove=Entferne diesen Wegpunkt
+bob.gui.waystone.info.teleport=Zu diesem Wegpunkt teleportieren
+bob.gui.waystone.info.remove=Diesen Wegpunkt entfernen
 
 ### Messages
 bob.message.waystone.added=Wegpunkt hinzugefügt!
@@ -183,47 +183,53 @@ bob.quests.secret.toast=Geheimnis?
 bob.quests.secret.toast.desc=Eine Quest wurde freigeschaltet.
 
 ### List
-bob.quests.secret.1.name.1=Sternkristalle
-bob.quests.secret.1.desc.1=Reparieren Sie einen kaputten Stellar-Rekord. Vielleicht wäre ein Schmiedetisch hilfreich...
+bob.quests.secret.1.name.1=„Stellar Crystals“
+bob.quests.secret.1.desc.1=Repariere die kaputte Stellar-Platte. Vielleicht wäre ein Schmiedetisch hilfreich...
 
+## Quests
 bob.gui.quests.title=Quest-Menü
-bob.gui.quests.desc=Wählen Sie ein Questkapitel aus.
-bob.gui.quests.regular=Hauptsächlich
+bob.gui.quests.desc=Wähle ein Questkapitel aus.
+bob.gui.quests.regular=Haupt-Quests
 bob.gui.quests.bought=Gekaufte Quests
 
+### Messages
 bob.gui.quests.regular.title=Queststufen
-bob.gui.quests.regular.desc=Diese Quests sind ein Leitfaden, der Ihnen auf Ihrer Reise hilft!
+bob.gui.quests.regular.desc=Diese Quests sind ein Leitfaden, um Dir auf Deiner Reise zu helfen!
 bob.gui.quests.tier=Schließe die Quests ab, um die nächste Stufe freizuschalten!
-bob.gui.quests.completed=Quest abgeschlossen! Sie können jetzt Ihre Prämien einfordern.
-bob.message.quests.completeQuest=Sie haben die §7%1 §Anfrage abgeschlossen und wurden belohnt!
-bob.message.quests.tierUnlocked=Du hast die §7"%1" §rstufe abgeschlossen!
+bob.gui.quests.completed=Quest abgeschlossen! Hol Dir jetzt Deine Belohnung.
+bob.message.quests.completeQuest=Du hast die §7%1 §Quest abgeschlossen und wurdest belohnt!
+bob.message.quests.tierUnlocked=Du hast die §7"%1" §rStufe abgeschlossen!
 bob.message.quests.started=Eine Quest hat begonnen!
-bob.message.quests.alreadyClaimed=Die Belohnungen dieser Quest wurden bereits beansprucht.
+bob.message.quests.alreadyClaimed=Diese Quest-Belohnungen wurden schon genommen.
 bob.message.quests.claimedAll=Alle Quests erfolgreich abgeschlossen!
-bob.message.quests.lockedTier=Sie müssen §7"%1"§r abschließen, um diese Stufe freizuschalten.
+bob.message.quests.lockedTier=Du musst §7"%1"§r abschließen, um diese Stufe freizuschalten.
 bob.message.quests.lockedQuest=Du musst §7"%1"§r abschließen, um diese Quest freizuschalten.
+
+### Status
 bob.gui.quests.status.locked=Gesperrt
-bob.gui.quests.status.unlocked=Entsperrt
+bob.gui.quests.status.unlocked=Verfügbar
 bob.gui.quests.status.busy=Beschäftigt
-bob.gui.quests.status.completed=Vollendet
-bob.gui.quests.status.claimed=Behauptet
+bob.gui.quests.status.completed=Abgeschlossen
+bob.gui.quests.status.claimed=Genommen
+
+### Tiers
 bob.quests.tier.1=Erste Schritte
 bob.quests.tier.1.name.1=Erstes Holz
-bob.quests.tier.1.desc.1=Holen Sie sich drei Protokolle.
+bob.quests.tier.1.desc.1=Besorge drei Stämme.
 bob.quests.tier.1.name.2=Steinzeit
-bob.quests.tier.1.desc.2=Holen Sie sich §714x§r Kopfsteinpflaster.
-bob.quests.tier.1.name.3=Bekomme ein Upgrade!
-bob.quests.tier.1.desc.3=Rüsten Sie Ihre Holzspitzhacke zu einer Steinspitzhacke auf.
-bob.quests.tier.1.name.4=Ironie!
-bob.quests.tier.1.desc.4=Rüsten Sie Ihre Spitzhacke zu einer Eisenspitzhacke auf.
+bob.quests.tier.1.desc.2=Besorge §714x§r Bruchstein.
+bob.quests.tier.1.name.3=Mach ein Upgrade!
+bob.quests.tier.1.desc.3=Verbessere Deine Holzspitzhacke zu einer Steinspitzhacke.
+bob.quests.tier.1.name.4=Eisen!
+bob.quests.tier.1.desc.4=Und jetzt eine Eisenspitzhacke, bitte!
 bob.quests.tier.1.name.5=Diamanten???
-bob.quests.tier.1.desc.5=Holen Sie sich §79x§r Diamanten.
+bob.quests.tier.1.desc.5=Hol Dir §79x§r Diamanten.
 
-bob.quests.tier.2=Bergbauzeit
+bob.quests.tier.2=Abenteuerzeit
 bob.quests.tier.2.name.1=Händler
-bob.quests.tier.2.desc.1=Tauschen Sie es gegen eine gekaufte Quest bei einem Bibliothekar-Dorfbewohner ein.
-bob.quests.tier.2.name.2=Auftragszeit.
-bob.quests.tier.2.desc.2=Hole Dir eine Auftragsrolle von einem Händler-Außenposten, der überall in der Oberwelt zu finden ist.
+bob.quests.tier.2.desc.1=Handle mit einem Bibliothekar-Dorfbewohneretwas für eine gekaufte Quest.
+bob.quests.tier.2.name.2=Bounty-Zeit
+bob.quests.tier.2.desc.2=Hole Dir eine Bounty-Rolle von einem Händler-Außenposten, der überall in der Oberwelt zu finden ist.
 bob.quests.tier.2.name.3=Zaubererhandwerk!
 bob.quests.tier.2.desc.3=Finde eine Flammenrune.
 bob.quests.tier.2.name.4=Reisender
@@ -233,77 +239,84 @@ bob.quests.tier.2.desc.5=Kaufe einen Stab von einem einsamen Zauberer.
 
 bob.quests.tier.3=Nether erhebt sich
 bob.quests.tier.3.name.1=Tief unten
-bob.quests.tier.3.desc.1=Finde einen Corstinitbarren, der im Nether gefunden wurde.
+bob.quests.tier.3.desc.1=Finde einen Corstinitbarren im Nether.
 bob.quests.tier.3.name.2=Freunde! :3
-bob.quests.tier.3.desc.2=Lege ein Quetzacaw-Ei. Sie können in Truhen in der Nether-Dimension gefunden werden.
+bob.quests.tier.3.desc.2=Lege ein Quetzacaw-Ei. Du findest sie in Truhen im Nether.
 bob.quests.tier.3.name.3=Geldkrabbe
 bob.quests.tier.3.desc.3=Jage vier Basalträuber. Sie können in Basaltdeltas gefunden werden.
-bob.quests.tier.3.name.4=Abgeschirmter Pyroklast
-bob.quests.tier.3.desc.4=Besiege den abgeschirmten Pyroklasten.
+bob.quests.tier.3.name.4=Schutzschild-Pyroclast
+bob.quests.tier.3.desc.4=Besiege den Schutzschild-Pyroklasten.
 bob.quests.tier.3.name.5=Verwelkter Samurai
 bob.quests.tier.3.desc.5=Besiege den verwelkten Samurai.
 
 bob.quests.tier.4=Monsterplünderer
 bob.quests.tier.4.name.1=Zombietöter
-bob.quests.tier.4.desc.1=Besorge Dir einen halben Stapel (§732x§r) Rotten Flesh.
-bob.quests.tier.4.name.2=Creeper Hunter
-bob.quests.tier.4.desc.2=Besorge Dir §716x§r Schießpulver.
-bob.quests.tier.4.name.3=Schwierige Situation
-bob.quests.tier.4.desc.3=Rufe den §714x§r-String ab.
+bob.quests.tier.4.desc.1=Besorge Dir einen halben Stapel (§732x§r) Verottetes Fleisch.
+bob.quests.tier.4.name.2=Creeper-Jäger
+bob.quests.tier.4.desc.2=Hole §716x§r Schießpulver.
+bob.quests.tier.4.name.3=Fädel Dich durch
+bob.quests.tier.4.desc.3=Besorge §714x§r Faden.
 bob.quests.tier.4.name.4=Mehr Seelen
 bob.quests.tier.4.desc.4=Erhalte zwei Seelen, indem du Mobs tötest.
 
-bob.quests.tier.5=Der Willager
+bob.quests.tier.5=Mehr Essen
 bob.quests.tier.5.name.1=Eine große Nuss
-bob.quests.tier.5.desc.1=Erhalten Sie eine aufgebrochene Kokosnuss, indem Sie eine Kokosnuss auf einem Stein aufbrechen.
-bob.quests.tier.5.name.2=Eier als Pflanzen?
-bob.quests.tier.5.desc.2=Holen Sie sich einen halben Stapel (§732x§r) gebackene Auberginen.
-bob.quests.tier.5.name.3=Eine gute Diät
-bob.quests.tier.5.desc.3=Holen Sie sich §78x§r Salat.
+bob.quests.tier.5.desc.1=Besorge eine aufgebrochene Kokosnuss – zerbrich eine Kokosnuss über einem Stein.
+bob.quests.tier.5.name.2=Auberginen
+bob.quests.tier.5.desc.2=Hole einen halben Stapel (§732x§r) gebackene Auberginen.
+bob.quests.tier.5.name.3=Gesunde Ernährung
+bob.quests.tier.5.desc.3=Besorge §78x§r Salate.
 bob.quests.tier.5.name.4=Wildes Essen
-bob.quests.tier.5.desc.4=Holen Sie sich §716x§r Wildkarotten, die im Ebenenbiom vorkommen.
+bob.quests.tier.5.desc.4=Hole §716x§r Wildkarotten, die in den Ebenen wachsen.
 bob.quests.tier.5.name.5=Grünes Heu?
-bob.quests.tier.5.desc.5=Holen Sie sich fünf Gersteneintopf.
-bob.quests.tier.5.name.6=Heilmittel gegen Tränen
-bob.quests.tier.5.desc.6=Erhalten Sie einen halben Stapel (§732x§r) gebackener Zwiebeln, indem Sie Zwiebeln in einem Ofen oder Räucherofen kochen.
+bob.quests.tier.5.desc.5=Besorge fünf Gersteneintopf.
+bob.quests.tier.5.name.6=Nicht weinen
+bob.quests.tier.5.desc.6=Mach einen halben Stapel (§732x§r) gebackene Zwiebeln, indem Du Zwiebeln in einem Ofen oder Räucherofen kochst.
 bob.quests.tier.5.name.7=Le Baguette
-bob.quests.tier.5.desc.7=Holen Sie sich ein Baguette.
+bob.quests.tier.5.desc.7=Hol Dir ein Baguette.
 
-bob.quests.tier.6=Abenteuerzeit!
+bob.quests.tier.6=Bereit für den Kampf!
 bob.quests.tier.6.name.1=Bogenmeister
-bob.quests.tier.6.desc.1=Holen Sie sich §748x§r-Pfeile.
-bob.quests.tier.6.name.2=Gesund bleiben
-bob.quests.tier.6.desc.2=Erhalten Sie §716x§r gesunde Karotten, indem Sie Wildkarotten pflanzen und anbauen.
+bob.quests.tier.6.desc.1=Schnapp Dir §748x§r Pfeile.
+bob.quests.tier.6.name.2=Bleib gesund
+bob.quests.tier.6.desc.2=Erhalte §716x§r gesunde Karotten, indem Du Wildkarotten pflanzt und wachsen lässt.
 bob.quests.tier.6.name.3=Gepanzert
-bob.quests.tier.6.desc.3=Holen Sie sich Diamant-Brustplatte.
+bob.quests.tier.6.desc.3=Besorge Dir eine Diamant-Rüstung.
 bob.quests.tier.6.name.4=Willager-Hut
-bob.quests.tier.6.desc.4=Holen Sie sich den Willager-Hut.
+bob.quests.tier.6.desc.4=Hol Dir den Willager-Hut.
 
 bob.quests.tier.7=Jenseits der Oberwelt
-bob.quests.tier.7.name.1=Das ist in Ordnung
-bob.quests.tier.7.desc.1=Erhalte fünf Blaze-Ruten, indem du Blazes tötest.
+bob.quests.tier.7.name.1=Heiße Angelegenheit
+bob.quests.tier.7.desc.1=Erhalte fünf Lohenruten, indem du Lohen tötest.
 bob.quests.tier.7.name.2=Schneewittchen?
-bob.quests.tier.7.desc.2=Holen Sie sich einen halben Stapel (§732x§r) Quarz.
-bob.quests.tier.7.name.3=Nether-Artikel?
+bob.quests.tier.7.desc.2=Besorge Dir einen halben Stapel (§732x§r) Quarz.
+bob.quests.tier.7.name.3=Netherit?
 bob.quests.tier.7.desc.3=Besorge dir einen Netheritbarren.
 bob.quests.tier.7.name.4=Ender-Spieler
-bob.quests.tier.7.desc.4=Holen Sie sich einen Stapel (§764x§r) Chorfrüchte.
+bob.quests.tier.7.desc.4=Hole Dir einen Stapel (§764x§r) Chorusfrüchte.
 bob.quests.tier.7.name.5=Netherbett
-bob.quests.tier.7.desc.5=Stelle einen Respawn-Anker her.
+bob.quests.tier.7.desc.5=Baue einen Respawn-Punkt.
 bob.quests.tier.7.name.6=Bewegliche Truhe
-bob.quests.tier.7.desc.6=Holen Sie sich eine Shulker-Box.
+bob.quests.tier.7.desc.6=Besorge Dir eine Shulker-Kiste.
 bob.quests.tier.7.name.7=Drachenei
-bob.quests.tier.7.desc.7=Holen Sie sich das Drachenei.
+bob.quests.tier.7.desc.7=Hol Dir das Drachenei.
 
 
+## Bought Quests
 bob.gui.quests.bought.title=Gekaufte Quests
+
+### Rarity
 bob.gui.quests.bought.rarity.common=Gemeinsam
 bob.gui.quests.bought.rarity.uncommon=Ungewöhnlich
 bob.gui.quests.bought.rarity.rare=Selten
 bob.gui.quests.bought.rarity.legendary=Legendär
+
+### Messages
 bob.message.quests.bought.locked=Diese Quest ist derzeit gesperrt.
 bob.message.quests.bought.alreadyUnlocked=Du hast diese Quest bereits freigeschaltet.
 bob.message.quests.bought.unlocked=Sie haben den §7%1 §7- %2§r freigeschaltet
+
+### List
 bob.quests.bought.name.1=Verzauberte Expedition
 bob.quests.bought.desc.1=Erhalten Sie jedes verzauberte Buch, das Better auf Bedrock hinzugefügt hat. Dies kann durch Durchsuchen von Truhen oder durch den Kauf bei Bibliothekar-Dorfbewohnern erfolgen.
 bob.quests.bought.name.2=Goblin-Bedrohung
@@ -338,10 +351,13 @@ bob.quests.bought.name.16=Abgründiges Rätsel
 bob.quests.bought.desc.16=Betreten Sie das Ende.
 
 
+## Bounties
 bob.gui.bounty.title=Auftrag
 bob.gui.bounty.desc.1=Wähle einen vorhandenen oder einen neu freigeschalteten Auftrag aus und folge den Anweisungen.
 bob.gui.bounty.desc.2=Jeder Auftrag hat einen Schwierigkeitsgrad, der durch „I, II, III, IV, V“ gekennzeichnet ist.
 bob.gui.bounty.completed=Auftrag abgeschlossen! Du kannst jetzt Deine Belohnung abholen.
+
+### Messages
 bob.message.bounty.complete=Ein Auftrag wurde abgeschlossen!
 bob.message.bounty.completedAll=Herzlichen Glückwunsch, Du hast alle Aufträge abgeschlossen!
 bob.message.bounty.alreadyClaimed=Du hast die Belohnungen für diesen Auftrag bereits bekommen.
@@ -350,11 +366,15 @@ bob.message.bounty.zeroCompleted=Du hast keinen abgeschlossenen Auftrag, den du 
 bob.message.bounty.claimedAll=Alle Auftragsbelohnungen erfolgreich erhalten!
 bob.message.bounty.accepted=Auftrag angenommen!
 bob.message.bounty.alreadyStarted=Du machst bereits einen anderen Auftrag!
+
+### Status
 bob.gui.bounty.status.locked=Gesperrt
 bob.gui.bounty.status.open=Offen
-bob.gui.bounty.status.inProgress=Im Gange...
-bob.gui.bounty.status.completed=Vollendet
-bob.gui.bounty.status.claimed=Belohnung beansprucht.
+bob.gui.bounty.status.inProgress=Aktiv...
+bob.gui.bounty.status.completed=Abgeschlossen
+bob.gui.bounty.status.claimed=Belohnung geholt.
+
+### List
 bob.bounty.name.1=Kuhtöter I
 bob.bounty.desc.1=Jage 3 Kühe.
 bob.bounty.name.2=Zombietöter II
@@ -397,6 +417,26 @@ bob.bounty.name.20=Zaubererjäger I
 bob.bounty.desc.20=Jage einen Zauberer.
 
 
+## Item Groups
+itemGroup.better_on_bedrock:magic_staffs.name=Magic Staffs
+itemGroup.better_on_bedrock:spears.name=Spears
+itemGroup.better_on_bedrock:wearables.name=Wearables
+itemGroup.better_on_bedrock:trophy_items.name=Item Trophies
+itemGroup.better_on_bedrock:quests_and_bounties.name=Quests & Bounties
+itemGroup.better_on_bedrock:runes.name=Runes
+itemGroup.better_on_bedrock:lootbags.name=Lootbags
+itemGroup.better_on_bedrock:trophy_blocks.name=Block Trophies
+itemGroup.better_on_bedrock:waystone.name=Waystone
+itemGroup.better_on_bedrock:boss_eyes.name=Boss Eyes
+itemGroup.better_on_bedrock:crafting_tables.name=Crafting Tables
+itemGroup.better_on_bedrock:plushies.name=Plushies
+itemGroup.better_on_bedrock:stardust.name=Stardust
+itemGroup.better_on_bedrock:thin_logs.name=Thin Logs
+itemGroup.better_on_bedrock:end_grass.name=End Grass
+
+
+## Entities
+entity.better_on_bedrock:guide_book.name=Leitfaden
 entity.better_on_bedrock:thrown_amethyst_spear.name=Amethyst-Speer
 entity.better_on_bedrock:thrown_diamond_spear.name=Diamantspeer
 entity.better_on_bedrock:thrown_golden_spear.name=Goldener Speer
@@ -491,15 +531,19 @@ entity.better_on_bedrock:willager.name=Willager
 entity.better_on_bedrock:willager_clone.name=Willlager Lockvogel
 entity.better_on_bedrock:withered_samurai.name=Verwelkter Samurai
 entity.better_on_bedrock:wooden_spear.name=Holzspeer
-entity.better_on_bedrock:pigeon.name=Taube
-entity.better_on_bedrock:piglin_trader.name=Piglin-Händler
+entity.better_on_bedrock:legrang.name=Legrang
 entity.player.name=Spieler
 
 
+## Vanilla Items
 item.gold_nugget.name=Rohes Goldfragment
 item.iron_nugget.name=Roheisenfragment
 
 
+## Items
+item.better_on_bedrock:guide_book.name=Leitfaden
+item.better_on_bedrock.guide_book.name=Leitfaden
+item.better_on_bedrock.guide_book.desc=§7Better on Bedrock
 item.better_on_bedrock:tall_eyeblossom.name=Hohe Blüte
 item.better_on_bedrock:tall_blossom.name=Hohe Augenblüte
 item.better_on_bedrock:voiding_grass.name=Gras entleeren
@@ -859,13 +903,15 @@ item.better_on_bedrock.amethyst_armor.desc=§7Das komplette Set schlägt jedem a
 item.better_on_bedrock.stardust_armor.desc=§7Komplettes Set gewährt Bonuseffekte.
 
 
-item.record_balloonpop.desc=J. Rivers – Reisende
-item.record_take_picture.desc=PatchyTheFox – Sternenstaub
-item.record_use.desc=PatchyTheFox - Fuchs
-item.record_reaction.fire.desc=Elektrika – Sternkristalle
-item.better_on_bedrock:record_broken.name=Kaputte Musik-CD
+## Records
+item.record_balloonpop.desc=J. Rivers - Travelers
+item.record_take_picture.desc=PatchyTheFox - Stardust
+item.record_use.desc=PatchyTheFox - Fox
+item.record_reaction.fire.desc=Elektrika - Stellar Crystals
+item.better_on_bedrock:record_broken.name=Broken Music Disc
 
 
+## Enchants
 item.better_on_bedrock.auto_smelter.name=§7Erzhütte I§r
 item.better_on_bedrock.harvest_touch.name=§7Harvest Touch I§r
 item.better_on_bedrock.leafy_liberator.name=§7Leafy Liberator I§r
@@ -878,6 +924,7 @@ item.better_on_bedrock.shears=§cNur für Scheren.§r
 item.better_on_bedrock.miner_bench=§dÜber Miner Bench auf das Werkzeug anwenden§r
 
 
+## Spawn Eggs
 item.spawn_egg.entity.better_on_bedrock:bacterio.name=Bakterien hervorbringen
 item.spawn_egg.entity.better_on_bedrock:bassalt_crobber.name=Spawne Bassalt Crobber
 item.spawn_egg.entity.better_on_bedrock:blaze_keeper.name=Spawn Blaze Keeper
@@ -946,12 +993,11 @@ item.spawn_egg.entity.better_on_bedrock:withered_samurai.name=Bringe verwelkte S
 item.spawn_egg.entity.minecraft:pigeon.name=Laichtaube
 item.spawn_egg.entity.minecraft:piglin_trader.name=Spawn Piglin-Händler
 
-tile.end_portal.name=Portal beenden
-tile.brewing_stand.name=Braustand
-tile.end_gateway.name=End-Gateway
 
-
+## Blocks
+tile.better_on_bedrock:taller_grass.name=Hohes Gras
 tile.better_on_bedrock:tall_abyss_grass.name=Hohes Abgrundgras
+tile.better_on_bedrock:tall_chorus_grass.name=Großes Chorus-Gras
 tile.better_on_bedrock:vacant_lumen_flower=Lumenblume entleeren
 tile.better_on_bedrock:lunar.name=Mondblume
 tile.better_on_bedrock:lunar2.name=Mondblume
@@ -1043,6 +1089,8 @@ tile.better_on_bedrock:diorite_brick_wall.name=Diorit-Ziegelmauer
 
 tile.better_on_bedrock:abyss_stone.name=Abgrundstein
 tile.better_on_bedrock:stardust_block.name=Block aus Sternenstaub
+tile.better_on_bedrock:tin_block.name=Zinnblock
+ile.better_on_bedrock:corstinite_block.name=Corstinit-Block
 tile.better_on_bedrock:abyss_stone_crying.name=Weinender Abgrundstein
 tile.better_on_bedrock:acacia_crafting_table.name=Basteltisch aus Akazienholz
 tile.better_on_bedrock:alluminum_ore=Aluminiumerz
@@ -1070,18 +1118,18 @@ tile.better_on_bedrock:cherry_crafting_table.name=Kirsch-Basteltisch
 tile.better_on_bedrock:chiseled_granite_bricks.name=Gemeißelte, polierte Granitsteine
 tile.better_on_bedrock:chiseled_polished_andisite.name=Gemeißelte, polierte Andesit-Ziegel
 tile.better_on_bedrock:chiseled_polished_diorite.name=Gemeißelte, polierte Dioritsteine
-tile.better_on_bedrock:chorus_block.name=Chorblock
-tile.better_on_bedrock:chorus_door.name=Chortür
-tile.better_on_bedrock:chorus_grass.name=Chorgras
-tile.better_on_bedrock:chorus_lily.name=Chor Lilie
-tile.better_on_bedrock:chorus_log.name=Chorprotokoll
-tile.better_on_bedrock:chorus_wood.name=Chorholz
-tile.better_on_bedrock:chorus_planks.name=Chorplanken
-tile.better_on_bedrock:chorus_plant.name=Chorpflanze
-tile.better_on_bedrock:chorus_slab.name=Chorplankenplatte
-tile.better_on_bedrock:chorus_trapdoor.name=Chor Falltür
+tile.better_on_bedrock:chorus_block.name=Chorusblock
+tile.better_on_bedrock:chorus_door.name=Chorustür
+tile.better_on_bedrock:chorus_grass.name=Chorusgras
+tile.better_on_bedrock:chorus_lily.name=Choruslilie
+tile.better_on_bedrock:chorus_log.name=Chorusprotokoll
+tile.better_on_bedrock:chorus_wood.name=Chorusholz
+tile.better_on_bedrock:chorus_planks.name=Chorusplanken
+tile.better_on_bedrock:chorus_plant.name=Choruspflanze
+tile.better_on_bedrock:chorus_slab.name=Chorusplankenplatte
+tile.better_on_bedrock:chorus_trapdoor.name=Chorus-Falltür
 tile.better_on_bedrock:chorus_vine_head.name=Chorus-Rebenkopf
-tile.better_on_bedrock:chorus_vines.name=Chorreben
+tile.better_on_bedrock:chorus_vines.name=Chorusreben
 tile.better_on_bedrock:coconut.name=Kokosnuss
 tile.better_on_bedrock:cornflower_pot.name=Hängender Kornblumen-Blumentopf
 tile.better_on_bedrock:corstinite_ore.name=Corstinit-Erz
@@ -1132,6 +1180,7 @@ tile.better_on_bedrock:granite_brick_stairs.name=Treppen aus poliertem Granitste
 tile.better_on_bedrock:granite_bricks.name=Polierte Granitsteine
 tile.better_on_bedrock:grape.name=Traubenstrauch
 tile.better_on_bedrock:grape_fully_grown.name=Traubenstrauch
+tile.better_on_bedrock:hanging_pot_base.name=Hängetopf
 tile.better_on_bedrock:healing_campfire.name=Heilendes Lagerfeuer
 tile.better_on_bedrock:healthy_carrot.name=Gesunde Karotte
 tile.better_on_bedrock:hydrangea.name=Hortensie
@@ -1150,11 +1199,11 @@ tile.better_on_bedrock:mable_chissled.name=Mable gemeißelt
 tile.better_on_bedrock:mable_frame.name=Stabiler Rahmen
 tile.better_on_bedrock:mable_smooth.name=Mable glatt
 tile.better_on_bedrock:mable_smoother.name=Mable Smoother
-tile.better_on_bedrock:malbite.name=Malbite
-tile.better_on_bedrock:malbite_bricks.name=Malbite-Steine
-tile.better_on_bedrock:malbite_bricks_slab.name=Malbite-Ziegelplatte
+tile.better_on_bedrock:malbite.name=Malbit
+tile.better_on_bedrock:malbite_bricks.name=Malbit-Steine
+tile.better_on_bedrock:malbite_bricks_slab.name=Malbit-Ziegelplatte
 tile.better_on_bedrock:malbite_chiseled.name=Gemeißelter Malbit
-tile.better_on_bedrock:malbite_frame.name=Malbite-Rahmen
+tile.better_on_bedrock:malbite_frame.name=Malbit-Rahmen
 tile.better_on_bedrock:malbite_smooth.name=Glatter Malbit
 tile.better_on_bedrock:malbite_smooth_slab.name=Glatte Malbitplatte
 tile.better_on_bedrock:malbite_smoother.name=Sanfterer Malbite
@@ -1214,6 +1263,9 @@ tile.better_on_bedrock:spruce_small_log.name=Kleiner Fichtenstamm
 tile.better_on_bedrock:cherry_small_log.name=Kleiner Kirschstamm
 tile.better_on_bedrock:mangrove_small_log.name=Kleiner Mangrovenstamm
 tile.better_on_bedrock:pale_small_log.name=Kleiner Baumstamm aus heller Eiche
+tile.better_on_bedrock:chorus_small_log.name=Kleine Chorus-Stamm
+tile.better_on_bedrock:vacant_small_log.name=Kleiner leerer Stamm
+tile.better_on_bedrock:voiding_small_log.name=Small Voiding Log
 tile.better_on_bedrock:small_chorus_spore.name=Kleine Spore
 tile.better_on_bedrock:soul_jar.name=Seelenglas
 tile.better_on_bedrock:soul_star_block.name=Leuchtfeuer der gebrochenen Seele
@@ -1262,11 +1314,12 @@ tile.better_on_bedrock:voiding_planks.name=Planken entleeren
 tile.better_on_bedrock:voiding_slab.name=Leere Plankenplatte
 tile.better_on_bedrock:vp_grass.name=Grasblock entleeren
 tile.better_on_bedrock:vp_grass_two.name=Gras entleeren
+tile.better_on_bedrock:voiding_grass.name=Voiding Grass
 
-tile.better_on_bedrock:voiding_log.name=Ungültiges Protokoll
+tile.better_on_bedrock:voiding_log.name=Voiding Stamm
 tile.better_on_bedrock:voiding_wood.name=Leeres Holz
-tile.better_on_bedrock:waystone.name=Wegstein
-tile.better_on_bedrock:waystone_block.name=Wegsteinblock
+tile.better_on_bedrock:waystone.name=Wegpunkt
+tile.better_on_bedrock:waystone_block.name=Wegpunkt-Block
 tile.better_on_bedrock:wild_carrot.name=Wilde Karotte
 tile.better_on_bedrock:wildflower.name=Wildblume
 tile.better_on_bedrock:willager_hat.name=§eWillager Hat§r
